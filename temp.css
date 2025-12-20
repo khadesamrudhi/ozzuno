@@ -1,0 +1,653 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #f2f2f7;
+  overflow-x: hidden;
+
+  background:
+    radial-gradient(900px 500px at 50% -20%, #1b1740 0%, transparent 60%),
+    linear-gradient(180deg, #05040a 0%, #080612 100%);
+}
+
+/* ================= CANVAS ================= */
+#bg-ring {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ================= NAV ================= */
+#sec1-nav-intro {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+  position: fixed;
+  padding: 20px 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(18, 16, 30, 0.55);
+  backdrop-filter: blur(14px);
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+
+  z-index: 100;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 30px;
+}
+
+.nav-left img {
+  width: 72px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #d7d5e6;
+  opacity: 0.7;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.nav-right {
+  margin-right: 50px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #bdbad3;
+}
+
+/* ================= HERO ================= */
+.hero {
+  min-height: 90vh; /* reduced height to make section 2 visible */
+  padding-top: 160px; /* adjust spacing for hero content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: end;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  z-index: 2;
+
+}
+
+/* MAIN TITLE */
+.p-title {
+  font-size: clamp(64px, 8vw, 110px);
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 1.05;
+
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #b8b5ff,
+    #ffffff
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shimmer 6s linear infinite;
+}
+
+/* SUBTITLE */
+.p-subtitle {
+  text-shadow: 0 1px 2px rgba(247, 244, 244, 0.6);
+  
+  font-size: clamp(26px, 3.5vw, 40px);
+  opacity: 0;
+  color:#b8b5ff;
+  animation: slideUp 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* TAGLINE */
+.p-tagline {
+  text-shadow: 0 1px 2px rgba(24720, 244, 244, 0.6);
+
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cfcce5;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.9s;
+}
+
+/* ================= SECTION 2 ================= */
+/* ================= SECTION 2 ================= */
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px; /* space between left and right */
+  position: relative;  /* NEW */
+  z-index: 0;
+}
+
+/* Left column */
+.section-left {
+  background-color: #080612;
+  padding: 20px ;
+  max-width: 400px;
+  flex: 1;
+  text-align: left;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+/* Level + Title + Desc */
+.section-level {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7d7998;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-top: 8px;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.section-desc {
+  margin-top: 16px;
+  font-size: 14px;
+  max-width: 500px;
+  line-height: 1.6;
+  color: #9a96b5;
+}
+
+/* Tabs */
+.section-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.section-tabs span {
+  padding: 6px 14px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  font-size: 13px;
+  color: #bdbad3;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.section-tabs span:hover {
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-2px);
+}
+
+/* Right column */
+.section-right {
+  flex: 1.5;
+  
+}
+
+/* ================= CARDS GRID ================= */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+/* Individual Card */
+.card {
+  background-color: #080612;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 30px 24px;
+  text-align: left;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+  position: relative;
+}
+
+.card-category {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9f9bb8;
+  margin-bottom: 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.card-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a5a1c1;
+  margin-bottom: 16px;
+}
+
+.card-link {
+  font-size: 13px;
+  color: #58a6ff;
+  font-weight: 500;
+}
+
+/* Hover pop effect: moves left and raises slightly */
+.card:hover {
+  transform: translate(-12px, -8px);
+  box-shadow: 0 28px 40px rgba(0,0,0,0.4);
+  border-color: rgba(255,255,255,0.15);
+  cursor: pointer;
+}
+
+/* ================= MODAL STYLES ================= */
+/* ================= MODAL CONTENT STYLING ================= */
+.modal-body {
+    padding: 20px 10px;
+    font-family: "Inter", sans-serif;
+}
+
+/* The Sub-headers (Level 1, THE FIRM etc) */
+.modal-level {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8e8e93;
+    margin-bottom: 4px;
+}
+
+/* Main Modal Titles */
+.modal-body h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 15px;
+}
+
+/* White Content Blocks (Like in your image) */
+.modal-info-card {
+    background: #ffffff;
+    color: #1c1c1e;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.modal-info-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.modal-info-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #3a3a3c;
+}
+
+/* Dark Highlight Block */
+.modal-dark-block {
+    background: #12101f;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.modal-dark-block h3 {
+    color: #b8b5ff;
+    margin-bottom: 15px;
+}
+
+/* Grid for the Bottom Nodes */
+.modal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.modal-grid-item {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 3px solid #b8b5ff;
+}
+
+.modal-grid-item h4 {
+    font-size: 12px;
+    color: #b8b5ff;
+    margin-bottom: 5px;
+}
+/* ================= BASE MODAL CONTAINER (FIX) ================= */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85); /* Dark overlay */
+  backdrop-filter: blur(10px);    /* Blur effect */
+  display: none;                  /* Hidden by default */
+  justify-content: center;
+  align-items: flex-start;        /* Start from top for scrolling */
+  z-index: 2000;
+  overflow-y: auto;               /* Allows scrolling if content is long */
+  padding: 40px 20px;
+}
+
+.modal-content {
+  background-color: #0b0a17;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: auto; /* Centers the content */
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 35px;
+  cursor: pointer;
+  color: #8e8e93;
+  transition: color 0.3s;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  color: #ffffff;
+}
+
+/* Blur the background when open */
+body.modal-open #sec1-nav-intro, 
+body.modal-open #section-2 {
+  filter: blur(8px);
+  pointer-events: none;
+}
+/* ================= ADVANCED MODAL DASHBOARD ================= */
+.modal-content {
+    background-color: #05040a;
+    border-radius: 0; /* Sharp corners for a more "military/corporate" feel */
+    padding: 0;
+    max-width: 1100px;
+    width: 95%;
+    border: 1px solid rgba(184, 181, 255, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.modal-split-container {
+    display: grid;
+    grid-template-columns: 350px 1fr; /* Left Briefing, Right Operations */
+    min-height: 600px;
+}
+
+/* Left Sidebar (The Briefing) */
+.modal-briefing {
+    background: linear-gradient(180deg, #0b0a17 0%, #05040a 100%);
+    padding: 60px 40px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.modal-briefing h2 {
+    font-size: 38px;
+    line-height: 1.1;
+    margin: 20px 0;
+    color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.brief-text {
+    color: #8e8e93;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.brief-status {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.brief-status span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #b8b5ff;
+    padding: 8px;
+    border: 1px solid rgba(184, 181, 255, 0.2);
+    text-align: center;
+}
+
+/* Right Content Area (The Operations) */
+.modal-operations {
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.02);
+    overflow-y: auto;
+    max-height: 85vh;
+}
+
+/* Redesigned White Info Card */
+.modal-info-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 4px; /* Slight roundness */
+    margin-bottom: 30px;
+    box-shadow: 20px 20px 60px rgba(0,0,0,0.5);
+}
+
+.modal-info-card h3 {
+    color: #000;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.modal-info-card p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Dark Block Styling */
+.modal-dark-block {
+    background: rgba(184, 181, 255, 0.05);
+    border-left: 4px solid #b8b5ff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.modal-dark-block h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ================= ROLE GRID STYLING ================= */
+.role-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.role-item {
+    border-left: 1px solid rgba(184, 181, 255, 0.3);
+    padding-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.role-item:hover {
+    border-left: 1px solid #b8b5ff;
+    background: rgba(184, 181, 255, 0.03);
+}
+
+.role-accent {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.role-caption {
+    color: #b8b5ff; /* Blue/Purple Accent */
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.role-desc {
+    color: #9a96b5; /* Soft gray for high-end look */
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.modal-list {
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.modal-list li::marker {
+    color: #b8b5ff;
+}
+
+/* section 3 */
+/* ================= SECTION 3 ================= */
+#section-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 60px; /* Increased padding for breathing room */
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 80px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden; /* Prevents horizontal scroll during animation */
+}
+
+/* Left Column Styling (Consistent with Section 2) */
+#section-3 .section-left {
+  flex: 1;
+  max-width: 450px;
+  position: sticky;
+  top: 150px; /* Sticks the text as you scroll through cards */
+}
+
+/* Right Column (Cards Container) */
+#section-3 .section-right {
+  flex: 1.5;
+}
+
+/* Base state for slide-in effect */
+.slide-card {
+  opacity: 0;
+  transform: translateX(100px); /* Start from the right */
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-bottom: 30px; /* Vertical stack for better sliding visual */
+}
+
+/* When the "active" class is added via JS */
+.slide-card.reveal {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Staggered Delay for the cards */
+.slide-card:nth-child(1) { transition-delay: 0.1s; }
+.slide-card:nth-child(2) { transition-delay: 0.3s; }
+.slide-card:nth-child(3) { transition-delay: 0.5s; }
+
+/* Section 3 specific card header styling */
+.card-id {
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  color: #b8b5ff;
+  opacity: 0.6;
+  float: right;
+}
+
+.card-header {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+/* Responsive Fix */
+@media (max-width: 900px) {
+    .modal-split-container {
+        grid-template-columns: 1fr;
+    }
+    .modal-briefing {
+        padding: 40px 30px;
+    }
+}
+/* ================= ANIMATIONS ================= */
+@keyframes shimmer {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(22px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeUp {
+  from { transform: translateY(28px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
