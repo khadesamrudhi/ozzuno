@@ -422,6 +422,7 @@ body.modal-open #section-2 {
     border: 1px solid rgba(184, 181, 255, 0.2);
     overflow: hidden;
     position: relative;
+    scrollbar-width: none;   
 }
 
 .modal-split-container {
@@ -473,7 +474,14 @@ body.modal-open #section-2 {
     padding: 60px;
     background: rgba(255, 255, 255, 0.02);
     overflow-y: auto;
+    scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;
     max-height: 85vh;
+}
+
+.modal-operations::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 /* Redesigned White Info Card */
@@ -571,63 +579,1315 @@ body.modal-open #section-2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 120px 60px; /* Increased padding for breathing room */
+  padding: 120px 60px;
   max-width: 1400px;
   margin: 0 auto;
   gap: 80px;
   position: relative;
   z-index: 0;
-  overflow: hidden; /* Prevents horizontal scroll during animation */
 }
 
-/* Left Column Styling (Consistent with Section 2) */
 #section-3 .section-left {
   flex: 1;
-  max-width: 450px;
+  max-width: 400px;
   position: sticky;
-  top: 150px; /* Sticks the text as you scroll through cards */
+  top: 150px;
 }
 
-/* Right Column (Cards Container) */
 #section-3 .section-right {
-  flex: 1.5;
+  flex: 2; /* Increased weight to fit two boxes side-by-side */
 }
 
-/* Base state for slide-in effect */
+/* Updated Grid: 2 boxes per row */
+#section-3 .cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* This creates the 2-column row */
+  gap: 25px; 
+  width: 100%;
+}
+
+/* Card Styling: Ensuring uniform box shapes */
 .slide-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 260px; /* Uniform height for the boxes */
+  background: rgba(255, 255, 255, 0.03);
+  padding: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  
+  /* Initial state for slide-in effect */
   opacity: 0;
-  transform: translateX(100px); /* Start from the right */
+  transform: translateX(60px); 
   transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-  margin-bottom: 30px; /* Vertical stack for better sliding visual */
 }
 
-/* When the "active" class is added via JS */
+/* Specific logic for the first card if you want it to stand alone, 
+   otherwise it will sit in the first slot of the grid */
+.slide-card:nth-child(1) {
+    height: 290px;
+}
+
+/* Reveal class triggered by JS */
 .slide-card.reveal {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* Staggered Delay for the cards */
+/* Staggered Delay */
 .slide-card:nth-child(1) { transition-delay: 0.1s; }
-.slide-card:nth-child(2) { transition-delay: 0.3s; }
-.slide-card:nth-child(3) { transition-delay: 0.5s; }
+.slide-card:nth-child(2) { transition-delay: 0.2s; }
+.slide-card:nth-child(3) { transition-delay: 0.3s; }
 
-/* Section 3 specific card header styling */
+/* Clean Header Styling */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+
 .card-id {
   font-family: 'Courier New', monospace;
   font-size: 11px;
   color: #b8b5ff;
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ================= SECTION 4 (MIRROR OF SECTION 2) ================= */
+/* ================= SECTION 4 (UNIFORM WITH SECTION 2) ================= */
+#section-4 {
+    display: flex;
+    flex-direction: row-reverse; /* Flips the layout: Text Right, Cards Left */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 60px;
+    position: relative;
+    z-index: 0; /* Match Section 2 */
+}
+.s4-level{
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7d7998;
+}
+
+.s4-left-text-container {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Match Section 2 Title/Desc Logic */
+.s4-title {
+    margin-top: 8px;
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.s4-desc {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #9a96b5;
+}
+
+/* Match Section 2 Tab Styles */
+.s4-tabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+}
+
+.s4-tabs span {
+    padding: 6px 14px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    font-size: 13px;
+    color: #bdbad3;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.s4-tabs span:hover {
+    background: rgba(255,255,255,0.12);
+    transform: translateY(-2px);
+}
+
+/* --- Cards Grid --- */
+.s4-right-grid-container {
+    flex: 1.5;
+}
+
+.s4-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+}
+
+/* Individual Card - EXACT Section 2 Style */
+.s4-card {
+    background-color: #080612;
+    border: 1px solid rgba(255,255,255,0.08); /* Uniform Border */
+    border-radius: 18px;
+    padding: 30px 24px;
+    text-align: left;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease; /* Uniform Transition */
+    position: relative;
+    cursor: pointer;
+}
+
+/* Card Hover - Match Section 2 Pop Effect */
+.s4-card:hover {
+    transform: translate(-12px, -8px); /* Uniform with Section 2 */
+    box-shadow: 0 28px 40px rgba(0,0,0,0.4);
+    border-color: rgba(255,255,255,0.15);
+}
+
+.s4-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.s4-card-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #a5a1c1;
+    margin-bottom: 16px;
+}
+
+.s4-card-link {
+    font-size: 13px;
+    color: #58a6ff;
+    font-weight: 500;
+}
+
+/* ================= SECTION 5 ================= */
+#section-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 80px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#section-5 .section-left {
+  flex: 1;
+  max-width: 450px;
+  position: sticky;
+  top: 150px;
+}
+
+#section-5 .section-right {
+  flex: 1.5;
+}
+
+/* Reusing your existing .slide-card and .reveal classes for Section 5 */
+#section-5 .card-id {
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  color: #4da3ff;/* Unique color accent for Private Capital section */
   opacity: 0.6;
   float: right;
 }
 
-.card-header {
+#section-5 .card-header {
   border-bottom: 1px solid rgba(255,255,255,0.05);
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
 
+/* Staggered Delay for Section 5 cards */
+#section-5 .slide-card:nth-child(1) { transition-delay: 0.1s; }
+#section-5 .slide-card:nth-child(2) { transition-delay: 0.3s; }
+
+/* Reusing Section 2 Logic for Section 6 */
+/* SECTION 6: Global Markets & Treasury */
+#section-6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px;
+  position: relative;
+}
+
+/* Left Column - Fixed Width logic from Section 2 */
+#section-6 .section-left {
+  background-color: #080612;
+  padding: 20px;
+  max-width: 400px;
+  flex: 1;
+  text-align: left;
+}
+
+#section-6 .section-level {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7d7998;
+  text-transform: uppercase;
+}
+
+#section-6 .section-title {
+  margin-top: 8px;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#section-6 .section-desc {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #9a96b5;
+}
+
+/* Single Tab Logic */
+#section-6 .section-tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 28px;
+}
+
+#section-6 .section-tabs span {
+  padding: 8px 18px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+  color: #bdbad3;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Right Column - Single Card logic */
+#section-6 .section-right {
+  flex: 1.5;
+}
+
+#section-6 .card {
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px;
+  text-align: left;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  max-width: 680px;
+}
+
+#section-6 .card:hover {
+  transform: translate(-10px, -5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+#section-6 .card-category {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9f9bb8;
+  margin-bottom: 12px;
+}
+
+#section-6 .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+#section-6 .card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #a5a1c1;
+  margin-bottom: 24px;
+}
+
+/* Internal Pill Styling */
+.card-pills {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  font-size: 11px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+  color: #8fa1b3;
+}
+
+/* Footer Link */
+#section-6 .card-link {
+  display: inline-block;
+  font-size: 13px;
+  color: #58a6ff;
+  font-weight: 500;
+  text-decoration: none;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+}
+
+/* ================= SECTION 7 (Mirroring Section 3) ================= */
+#section-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 80px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#section-7 .section-left {
+  flex: 1;
+  max-width: 450px;
+  position: sticky;
+  top: 150px;
+    background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#section-7 .section-right {
+  flex: 1.5;
+}
+
+/* Reusing your slide-in animation logic */
+#section-7 .slide-card {
+  opacity: 0;
+  transform: translateX(100px); 
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-bottom: 30px;
+
+}
+
+#section-7 .slide-card.reveal {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* Staggered Delay for Section 7 cards */
+#section-7 .slide-card:nth-child(1) { transition-delay: 0.1s; }
+
+
+/* ================= SECTION 8 (Assurance & Risk) ================= */
+#section-8 {
+    display: flex;
+    flex-direction: row-reverse; /* Text Right, Cards Left */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 60px;
+    position: relative;
+    z-index: 0;
+}
+
+/* Left Grid Logic */
+.s8-left-grid-container {
+    flex: 1.5;
+}
+
+.s8-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 28px;
+    
+}
+
+/* Individual Card - Match Section 4 Style */
+.s8-card {
+    background-color: #080612;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 35px 30px;
+    text-align: left;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+    cursor: pointer;
+}
+
+.s8-card:hover {
+    transform: translate(12px, -8px); /* Pop effect matching Section 4 */
+    box-shadow: 0 28px 40px rgba(0,0,0,0.4);
+    border-color: rgba(255,255,255,0.15);
+}
+
+.s8-card-tag {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: gray;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.s8-card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.s8-card-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #a5a1c1;
+    margin-bottom: 20px;
+}
+
+/* Right Text Logic */
+.s8-right-text-container {
+    flex: 1;
+    max-width: 450px;
+    text-align: left;
+    background-color: #080612;
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 20px;
+}
+
+.s8-level {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #7d7998;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.s8-title {
+    margin-top: 10px;
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
+.s8-desc {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #9a96b5;
+}
+
+.s8-tabs {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
+}
+
+.s8-tabs span:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    transform: translateY(-4px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.s8-tabs span:active {
+    transform: translateY(-1px);
+    transition: 0.1s;
+}
+.s8-tabs span {
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.04);
+    font-size: 13px;
+    color: #bdbad3;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: 0.3s;
+}
+
+.s8-card:hover {
+    transform: translate(-12px, -8px); 
+    
+}
+
+/* ================= SECTION 9: INTELLIGENCE DIRECTORATE ================= */
+
+#section-9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 120px 60px;
+  max-width: 1400px;
+  gap: 80px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  
+}
+
+/* Left Content */
+.s9-left-text-container {
+    flex: 1;
+    max-width: 480px;
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.s9-level {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #7d7998;
+    text-transform: uppercase;
+}
+
+.s9-title {
+    margin-top: 12px;
+    font-size: clamp(32px, 4vw, 40px);
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
+.s9-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #9a96b5;
+}
+
+/* Tabs with Pop Effect */
+.s9-tabs {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.s9-tab-item {
+    padding: 8px 18px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 13px;
+    color: #bdbad3;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy pop */
+    cursor: pointer;
+}
+
+.s9-tab-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Right Grid & Sliding Animation */
+.s9-right-grid-container {
+    flex: 1.5;
+    margin-top: 8px;
+}
+
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slideIn 0.8s forwards ease-out;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.s9-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+/* The Card Styling */
+.s9-card {
+    background: #080612;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    max-width: 580px;
+}
+
+
+.s9-card-tag {
+    font-size: 11px;
+    color: #7d7998;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.s9-card-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.s9-card-desc {
+    font-size: 15px;
+    color: #a5a1c1;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* The Link with Spacer Fix */
+.s9-card-link-container {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card-linkk {
+    color: #3b82f6;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+
+/* ================= SECTION 10 STYLES ================= */
+#section-10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px;
+  position: relative;
+  z-index: 0;
+ /* Darker background to make cards pop */
+}
+
+/* Left Column */
+#section-10 .section-left {
+  background-color: transparent;
+  max-width: 400px;
+  flex: 1;
+  text-align: left;
+}
+
+#section-10 .section-level {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7d7998;
+  text-transform: uppercase;
+}
+
+#section-10 .section-title {
+  margin-top: 8px;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+#section-10 .section-desc {
+  margin-top: 16px;
+  font-size: 14px;
+  max-width: 500px;
+  line-height: 1.6;
+  color: #9a96b5;
+}
+
+/* Tabs */
+#section-10 .section-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+#section-10 .section-tabs span {
+  padding: 6px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: #bdbad3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#section-10 .section-tabs span:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-3px); /* Tab pop-up effect */
+  color: #fff;
+}
+
+/* Right Column & Cards */
+#section-10 .section-right {
+  flex: 1.5;
+  margin: 30px ;
+}
+
+#section-10 .cards-grid {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+#section-10 .card {
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 30px 24px;
+  text-align: left;
+  position: relative;
+}
+
+#section-10 .card-category {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #7d7998;
+  margin-bottom: 8px;
+}
+
+#section-10 .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+#section-10 .card-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a5a1c1;
+  margin-bottom: 20px;
+}
+
+#section-10 .card-link {
+  
+  font-size: 13px;
+  color:#3b82f6; /* Amber/Gold accent matching the image logic */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* The Hover Pop-Up Effect */
+#section-10 .card:hover {
+  transform: translate(-12px, -8px);
+  box-shadow: 0 28px 40px rgba(0,0,0,0.4);
+  border-color: rgba(255,255,255,0.15);
+  cursor: pointer;
+}
+
+
+/* ================= SECTION 11: ASSET MANAGEMENT ================= */
+
+#section-11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 80px;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/* Left Content */
+.s11-left-text-container {
+    flex: 1;
+    max-width: 480px;
+    background-color: #080612;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.s11-level {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #7d7998;
+    text-transform: uppercase;
+}
+
+.s11-title {
+    margin-top: 12px;
+    font-size: clamp(32px, 4vw, 40px);
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
+.s11-desc {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #9a96b5;
+}
+
+/* Tabs with Pop Effect */
+.s11-tabs {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.s11-tab-item {
+    padding: 8px 18px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: 13px;
+    color: #bdbad3;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy pop */
+    cursor: pointer;
+}
+
+.s11-tab-item:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* Right Grid & Sliding Animation */
+.s11-right-grid-container {
+    flex: 1.5;
+    margin-top: 8px;
+}
+
+/* Re-using the slideIn keyframe from your S9 logic */
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: slideInWealth 0.8s forwards ease-out;
+}
+
+@keyframes slideInWealth {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.s11-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+/* The Card Styling */
+.s11-card {
+    background: #080612;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 40px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    max-width: 580px;
+}
+
+/* Slight Pop Effect for Card */
+.s11-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.s11-card-tag {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: #7d7998;
+    display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.s11-card-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.s11-card-desc {
+    font-size: 15px;
+    color: #a5a1c1;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+
+.card-linkk {
+  color:#3b82f6; /* Greenish/Mint accent to match the visual feel of Wealth management */
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-decoration: none;
+}
+
+/* ================= SECTION 12 ================= */
+#section-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px;
+  position: relative;
+  z-index: 0;
+}
+
+/* Visibility Fix for Left Column */
+#section-12 .section-left {
+  flex: 1;
+  max-width: 450px;
+  background-color: #080612; /* Distinct dark color */
+  padding: 40px;            /* Added padding so text isn't cramped */
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Subtle border like the cards */
+  text-align: left;
+}
+
+#section-12 .section-level {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #7d7998;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#section-12 .section-title {
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+#section-12 .section-desc {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #9a96b5;
+}
+
+/* Tabs Hover Pop */
+#section-12 .section-tabs {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+#section-12 .section-tabs span {
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: #bdbad3;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#section-12 .section-tabs span:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+/* Right Side - Cards Grid */
+#section-12 .section-right {
+  flex: 1.8;
+}
+
+#section-12 .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* THE HOVER POP CARD */
+#section-12 .cardd {
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 35px 28px;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+              box-shadow 0.4s ease, 
+              border 0.4s ease;
+  cursor: pointer;
+}
+
+#section-12 .card:hover {
+ transform: translate(-12px, -8px);
+  box-shadow: 0 28px 40px rgba(0,0,0,0.4);
+  border-color: rgba(255,255,255,0.15);
+  cursor: pointer;
+}
+
+#section-12 .card-category {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #7d7998;
+  margin-bottom: 12px;
+}
+
+#section-12 .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+#section-12 .card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #a5a1c1;
+  margin-bottom: 24px;
+}
+
+#section-12 .card-link {
+  font-size: 13px;
+  color: #3b82f6;
+  font-weight: 500;
+}
+/* ================= SECTION 13: INVESTOR RELATIONS ================= */
+#section-13 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px;
+  position: relative;
+  z-index: 0;
+}
+
+#section-13 .section-left {
+  flex: 0 0 400px;
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 24px;
+}
+
+#section-13 .section-right {
+  flex: 1.8;
+}
+
+#section-13 .cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 24px;
+}
+
+/* Base Card State - All cards now #080612 */
+#section-13 .card {
+  background-color: #080612; /* */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 35px;
+  color: #ffffff;
+  position: relative;
+  
+  /* Initial state for Intersection Observer slide-in */
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Reveal State triggered by JavaScript */
+#section-13 .card.reveal {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Logic for the tall left card spanning two rows */
+#section-13 .card:nth-child(1) { 
+  grid-row: span 2; 
+  transition-delay: 0.1s; 
+}
+
+/* Staggered delays for other cards */
+#section-13 .card:nth-child(2) { transition-delay: 0.3s; }
+#section-13 .card:nth-child(3) { transition-delay: 0.5s; }
+
+/* Sub-metrics/Sub-boxes styling based on Investor Relations image */
+.sub-metrics-container, .sub-box-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sub-metric-box, .sub-info-box {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metric-label, .sub-box-label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #4da3ff; /* Accent color from IR images */
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.sub-metric-box p, .sub-info-box p {
+  font-size: 13px;
+  color: #a5a1c1;
+  margin: 0;
+  line-height: 1.4;
+}
+
+#section-13 .card-header {
+  margin-bottom: 15px;
+}
+
+#section-13 .card-category {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #7d7998;
+  text-transform: uppercase;
+}
+
+#section-13 .card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#section-13 .card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #a5a1c1;
+}
+
+
+/* ================= SHARED DUAL-COLUMN LAYOUT ================= */
+#section-14, #section-15, #section-16, #section-17 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  gap: 60px;
+  position: relative;
+  z-index: 0;
+}
+
+#section-14 .section-left, 
+#section-15 .section-left, 
+#section-16 .section-left,
+#section-17 .section-left {
+  flex: 0 0 400px;
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 40px;
+}
+
+/* Maintain identical card styling across all sections */
+.dual-column-section .card {
+  background-color: #080612;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 35px;
+  color: #ffffff;
+  position: relative;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.dual-column-section .card.reveal {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.dual-column-section .card:nth-child(1) { grid-row: span 2; transition-delay: 0.1s; }
+.dual-column-section .card:nth-child(2) { transition-delay: 0.3s; }
+.dual-column-section .card:nth-child(3) { transition-delay: 0.5s; }
+
+/* Sub-metric Styling for all levels */
+.sub-metrics-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sub-metric-box {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metric-label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #4da3ff; /* Matching Section 13 Accent */
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+/* Removed card-link styles as per request */
 /* Responsive Fix */
+
+
+
 @media (max-width: 900px) {
     .modal-split-container {
         grid-template-columns: 1fr;
@@ -650,4 +1910,215 @@ body.modal-open #section-2 {
 @keyframes fadeUp {
   from { transform: translateY(28px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
+}
+
+
+#section-13 .card,
+#section-14 .card,
+#section-15 .card,
+#section-16 .card,
+#section-17 .card {
+  cursor: default;
+  pointer-events: none;
+}
+
+
+
+
+/* OZZUNO STRATEGIC FINANCIAL FOOTER */
+
+:root {
+  --ozz-bg: #05080a;           /* Deep Obsidian Black */
+  --ozz-gold: #c5a059;         /* Premium Accent Gold */
+  --ozz-white: #ffffff;
+  --ozz-muted: #a0a0a0;        /* Gray for secondary data */
+  --ozz-border: rgba(255, 255, 255, 0.08);
+  --ozz-glass: rgba(255, 255, 255, 0.03);
+}
+
+.ozzuno-footer {
+  background-color: var(--ozz-bg);
+  color: var(--ozz-white);
+  padding: 80px 5% 40px 5%;
+  font-family: 'Inter', -apple-system, sans-serif;
+  border-top: 1px solid var(--ozz-border);
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 1. Main Grid Layout */
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr 1fr; /* 4-column layout as per image */
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* 2. Section Headings */
+.ozzuno-footer h3 {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--ozz-muted);
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.col-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--ozz-white); /* High contrast for sub-headers */
+}
+
+/* 3. Identity & Regulatory Data (Monospaced) */
+.id-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.id-details li {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: var(--ozz-muted);
+  line-height: 1.4;
+}
+
+.id-details span {
+  color: var(--ozz-white);
+  font-family: 'JetBrains Mono', 'Courier New', monospace; /* Professional data look */
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+/* 4. Policy Links (Modal Triggers) */
+.disclaimer {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.policy-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.policy-links a {
+  color: var(--ozz-muted);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.policy-links a:hover {
+  color:#3b82f6;
+  transform: translateX(5px); /* Visual cue for interactive link */
+}
+
+/* 5. Status & Brand Badge */
+.brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.mini-logo {
+  height: 20px;
+  filter: brightness(1.2);
+}
+
+.brand-badge p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 700;
+  color:#3b82f6;
+}
+
+.address {
+  font-size: 12px;
+  color: var(--ozz-muted);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-methods p, .regulatory-offices p {
+  font-size: 11px;
+  margin: 5px 0;
+  color: var(--ozz-muted);
+}
+
+.contact-methods a {
+  color: var(--ozz-white);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* 6. Officer Info (Bottom Drawer) */
+.footer-bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  margin: 60px auto 30px auto;
+  max-width: 1400px;
+  border-top: 1px solid var(--ozz-border);
+  padding-top: 40px;
+  gap: 40px;
+}
+
+.officer-box strong {
+  display: block;
+  font-size: 10px;
+  color: var(--ozz-muted);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+.officer-box p {
+  font-size: 13px;
+  margin: 5px 0;
+  color: var(--ozz-muted);
+}
+
+.officer-box small {
+  color: var(--ozz-white);
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* 7. Copyright Footer Bar */
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--ozz-border);
+  font-size: 11px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.
+/* 8. Responsive Design */
+@media (max-width: 1024px) {
+  .footer-container { grid-template-columns: 1fr 1fr; gap: 30px; }
+  .footer-bottom-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 650px) {
+  .footer-container { grid-template-columns: 1fr; }
+  .footer-copyright { flex-direction: column; gap: 10px; text-align: center; }
 }

@@ -476,8 +476,1082 @@ const cardContents = {
         </div>
       </div>
     </div>
+
+  `,
+  "content-8": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 3 · Corporate Advisory Group</p>
+        <h2>Mergers, Acquisitions & Inorganic Growth</h2>
+        <p class="brief-text">Inorganic growth architecture and M&A syndication — conquest-led expansion through targeted acquisitions and mergers.</p>
+        <div class="brief-status">
+          <span>FOCUS: EXPANSION</span>
+          <span>GRID: M&A SERVICES</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. INORGANIC GROWTH ARCHITECTURE, MERGERS & ACQUISITIONS (M&A) SYNDICATION</p>
+            <p>
+            In the Darwinian landscape of modern commerce, growth is often a function of conquest. Our M&A Services division acts as the war room for corporations seeking to annex competitors, consolidate market share, or vertically integrate through the acquisition of external entities. We do not facilitate introductions; we orchestrate the systemic absorption of corporate targets.
+            <br><br>
+            Our process begins with ruthless <strong>Target Identification & Strategic Fit Analysis</strong>. We scan the market for entities that offer synergistic alignment, dissecting their operational architecture to ensure they provide tangible growth opportunities and value accretion to the acquirer's balance sheet.
+            <br><br>
+            Once a target is locked, we initiate <strong>Forensic Financial & Operational Due Diligence (FDD)</strong>. We dissect financials, unearth toxic assets, undisclosed liabilities, and inflated valuations. Revenue models are stress-tested and compliance histories audited to quantify risk before a single rupee is committed.
+            <br><br>
+            This flows into <strong>Deal Structuring & Valuation Engineering</strong>. We design the transaction mechanics — stock swaps, cash buyouts, leveraged buyouts (LBOs) — to optimize tax implications and leverage. Pricing is dictated by empirical risk assessment, ensuring EPS accretion and balance sheet integrity.
+            <br><br>
+            Finally, we assume command of <strong>Transaction Execution & Closure</strong>. We manage legal, compliance, and negotiation steps end-to-end: term sheets, definitive agreements, and approvals from NCLT, CCI, and other regulators. We navigate cultural integration risk to prevent post-merger paralysis.
+            <br><br>
+            In summation, we empower companies to buy or merge with other entities by rigorously validating financials, enforcing favorable valuations, and managing the legal warfare required to close the deal.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">Proprietary Execution Matrix</p>
+                <h4 class="role-accent">The Inorganic Conquest Cycle™</h4>
+                <p class="role-desc">Phase-wise framework for defining inorganic strategy, screening targets, executing due diligence, structuring deals, and integrating post-merger operations.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE</p>
+                <h4 class="role-accent">Target Screening & Hostile Defense</h4>
+                <p class="role-desc">Strategic mapping of targets plus defense mechanisms against hostile or predatory acquisition attempts.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Cement & Infrastructure Major</h4>
+                <p class="role-desc">Horizontal Competitor Acquisition. Transaction Size: ₹ 1,800 Crores · Status: NCLT Approved & Integrated</p>
+                
+                <h4 class="role-accent">Global Logistics Firm</h4>
+                <p class="role-desc">Cross-Border Merger (Inbound). Valuation: $140 Million · Status: Definitive Agreements Signed</p>
+                
+                <h4 class="role-accent">Renewable Energy Producer</h4>
+                <p class="role-desc">Asset Purchase Agreement (Solar Parks). Capacity: 600 MW Portfolio · Status: Asset Transfer Complete</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Mergers are executed in strict compliance with Sections 230-240 of the Companies Act, 2013. We rigorously monitor Competition Commission of India (CCI) combination thresholds.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> We enforce Chinese Wall protocols to prevent Insider Trading violations. Ozzuno facilitates the transaction but does not bear liability for post-merger integration failures. The client remains responsible for statutory filings and stamp duty.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+
+  "content-9": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 3 · Corporate Advisory Group</p>
+        <h2>Strategic Divestiture & Exit Architecture</h2>
+        <p class="brief-text">Strategic divestitures, corporate carve-outs, and liquidity events executed with surgical precision to maximize exit value.</p>
+        <div class="brief-status">
+          <span>FOCUS: LIQUIDITY EVENTS</span>
+          <span>GRID: STRATEGIC EXIT SERVICES</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">2. STRATEGIC DIVESTITURE, CORPORATE CARVE-OUTS & LIQUIDITY EVENTS</p>
+            <p>
+            When strategy demands severance of a corporate limb to preserve the whole, or liquidation of an asset to realize shareholder value, we execute exits with surgical precision. Our Strategic Exit Services division does not merely sell businesses; we engineer high-velocity divestitures and complex carve-outs designed to maximize exit multiples.
+            <br><br>
+            We begin with <strong>Determination of Intrinsic Enterprise Value</strong>. Beyond book value, we deploy DCF, precedent transactions, and comparable multiples to establish an irrefutable valuation floor that anchors aggressive negotiations.
+            <br><br>
+            Preparation is exhaustive: we build a fortified <strong>Information Memorandum & Virtual Data Room</strong>. Every financial statement, contract, and operational metric is sanitized and structured to withstand hostile due diligence from institutional buyers.
+            <br><br>
+            Simultaneously, we run <strong>Counterparty Identification & Target Screening</strong>. We hunt buyers — strategic acquirers, private equity sponsors, distressed asset funds — and create competitive auction dynamics that force premium pricing.
+            <br><br>
+            At the core lies <strong>Commercial Negotiation & Deal Structuring</strong>. We negotiate price, indemnities, escrow mechanisms, and closing conditions to ensure the best-selling price is not aspirational but contractual.
+            <br><br>
+            We manage legal, financial, and transactional compliance, including Share Purchase Agreements (SPA) and closing mechanics, to deliver clean, profitable exits without lingering legal wounds or undervalued assets.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">Proprietary Execution Matrix</p>
+                <h4 class="role-accent">The Liquidity Realization Pathway™</h4>
+                <p class="role-desc">Exit readiness, intrinsic valuation modeling, auction processes, and legal closure for divestitures and carve-outs.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE</p>
+                <h4 class="role-accent">Intrinsic Valuation & Asset Scrubbing</h4>
+                <p class="role-desc">Deep valuation work and documentation scrubbing for buyers' forensic due diligence.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Multi-Specialty Hospital Chain</h4>
+                <p class="role-desc">100% Strategic Divestiture. Exit Valuation: ₹ 400 Crores · Status: Full Cash Exit to PE Buyer</p>
+                
+                <h4 class="role-accent">Enterprise SaaS Platform</h4>
+                <p class="role-desc">Founder Stake Sale (Majority). Deal Value: $55 Million · Status: Acquired by NASDAQ Listed Tech Firm</p>
+                
+                <h4 class="role-accent">Auto-Ancillary Unit</h4>
+                <p class="role-desc">Distressed Asset Liquidation. Debt Liability: ₹ 150 Crores · Status: Settled via Slump Sale</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Business valuations are performed in line with International Valuation Standards (IVS). Divestitures are subject to NCLT approvals where applicable.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> The IM is based on management representations. Ozzuno acts as a sell-side advisor and does not guarantee closure at target valuation. All negotiations are subject to definitive agreements and successful due diligence.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-10": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 3 · Corporate Advisory Group</p>
+        <h2>Strategic Corporate Transformation</h2>
+        <p class="brief-text">Business engineering, digital transformation, and operational re-architecture for survival and dominance.</p>
+        <div class="brief-status">
+          <span>FOCUS: EFFICIENCY</span>
+          <span>GRID: BUSINESS CONSULTING</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">4. STRATEGIC CORPORATE TRANSFORMATION & BUSINESS ENGINEERING</p>
+            <p>
+            In an era of hyper-competition, passive management is a precursor to obsolescence. Our Business Consulting Services division intervenes in the operational core of the enterprise to enforce efficiency, scalability, and strategic dominance.
+            <br><br>
+            We execute <strong>Macro-Strategic Realignment</strong>, dissecting market position, identifying existential threats and asymmetric opportunities, and architecting a roadmap that sets the directional velocity of the organization.
+            <br><br>
+            We drive <strong>Digital Transformation & AI Integration</strong>, replacing analog workflows with cybernetic operating models. Machine learning and predictive analytics are deployed to automate decisions and optimize resource allocation.
+            <br><br>
+            Through <strong>Performance Improvement Protocols</strong>, we conduct ruthless P&L analysis, implementing cost rationalization and revenue maximization strategies to widen EBITDA margins.
+            <br><br>
+            Our mandate includes <strong>Operational Process Re-engineering</strong> and <strong>Organizational Restructuring</strong>: eliminating bottlenecks, redrawing hierarchies, and building agile, shock-resistant organizations.
+            <br><br>
+            We deploy <strong>Change Management Architecture</strong> to ensure human capital adapts to new systems and protocols, and enforce <strong>Sustainability & ESG Compliance</strong> not for optics, but for regulatory and long-term survivability.
+            <br><br>
+            Finally, we prepare enterprises for <strong>M&A and Private Equity Support</strong>, ensuring they are structurally ready for capital injections or inorganic scale.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">PROPRIETARY EXECUTION MATRIX</p>
+                <h4 class="role-accent">The Corporate Darwinism Framework™</h4>
+                <p class="role-desc">Strategy, operations, digital, hierarchy, and ESG mapped into a single transformation stack.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE</p>
+                <h4 class="role-accent">Operational Latency Diagnostic</h4>
+                <p class="role-desc">Bottleneck and latency mapping across value chain and hierarchy.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Pan-India Logistics Fleet</h4>
+                <p class="role-desc">Operational Process Re-engineering. Metric: ₹ 22 Crores/year cost rationalization - Status: Implemented & Audited</p>
+                
+                <h4 class="role-accent">Textile Manufacturing Group</h4>
+                <p class="role-desc">Corporate Turnaround & Restructuring. Revenue Base: ₹ 600 Crores - Status: EBITDA restored to +18%</p>
+                
+                <h4 class="role-accent">FMCG Giant</h4>
+                <p class="role-desc">Digital Transformation & AI Supply Chain Injection. Scope: Nationwide distribution grid - Status: Efficiency + 300%</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Advisory frameworks adhere to global corporate governance standards and sector-specific statutes.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Projections assume ceteris paribus conditions. Outcomes depend on management execution; we do not indemnify against macro shocks or non-implementation.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-11": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 3 · Corporate Advisory Group</p>
+        <h2>Deal Validation & Commercial Diligence</h2>
+        <p class="brief-text">Transaction validation, commercial diligence, and deal structuring architecture — preventing balance sheet contagion from bad deals.</p>
+        <div class="brief-status">
+          <span>FOCUS: RISK MITIGATION</span>
+          <span>GRID: DEAL CONSULTING</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">3. TRANSACTION VALIDATION, COMMERCIAL DILIGENCE & DEAL STRUCTURING</p>
+            <p>
+            In high-stakes transactions, a bad deal is not a simple error; it can neuroticize an entire balance sheet. Our Deal Consulting Services division acts as the ultimate fail-safe — a forensic checkpoint before signatures.
+            <br><br>
+            We run <strong>Commercial Viability & Profitability Stress-Tests</strong>, modeling synergies against harsh market realities to ensure strict alignment with strategic and profitability mandates.
+            <br><br>
+            Through <strong>Forensic Financial & Risk Review</strong>, we tear apart financials, hunting off-balance sheet liabilities, revenue inflation, and hidden covenants, translating them into quantified risk.
+            <br><br>
+            In parallel, <strong>Juridical & Compliance Due Diligence</strong> surfaces litigation exposure, regulatory non-compliance, and IP vulnerabilities, ensuring legal landmines are identified before closing.
+            <br><br>
+            We then re-engineer the deal through <strong>Transaction Structuring & Optimization</strong>, manipulating the mix of cash, equity, and earn-outs to shift risk away from the client and hard-code value protection.
+            <br><br>
+            Finally, <strong>Commercial Benefit Analysis</strong> tests whether projected benefits are real and mathematically defensible — turning deals into weapons of profitable growth, not sources of silent decay.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">PROPRIETARY EXECUTION MATRIX</p>
+                <h4 class="role-accent">The Transaction Validation Firewall™</h4>
+                <p class="role-desc">Layered checks on commercial logic, financial health, risk, and structure before signing.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE</p>
+                <h4 class="role-accent">Commercial Viability Stress-Test</h4>
+                <p class="role-desc">Deal-level profitability modeling and scenario analysis.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Luxury Hospitality Group</h4>
+                <p class="role-desc">Buy-Side Commercial Due Diligence. Target Value: ₹ 350 Crores - Status: Deal Aborted (Toxic Liabilities Flagged)</p>
+                <h4 class="role-accent">Steel Manufacturer</h4>
+                <p class="role-desc">Joint Venture Structuring & Validation. JV Commitment: ₹ 6,000 Crores - Status: JV Executed</p>
+                <h4 class="role-accent">Venture Capital Fund</h4>
+                <p class="role-desc">Portfolio Valuation & Risk Review. AUM: ₹ 1,200 Crores - Status: Methodology Certified</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Fairness opinions and commercial diligence reports are prepared based on data available at the time of assessment.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Advisory is limited to commercial, financial and risk structuring. Legal opinions are sourced from empaneled law firms. We do not warrant future performance; the client proceeds at their own risk based on the diligence findings.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-12": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 4 · Private Capital & Alternatives</p>
+        <h2>Private Equity Syndication</h2>
+        <p class="brief-text">Institutional private equity syndication & value engineering for high-growth enterprises.</p>
+        <div class="brief-status">
+          <span>FOCUS: GROWTH CAPITAL</span>
+          <span>GRID: PRIVATE EQUITY</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. INSTITUTIONAL PRIVATE EQUITY SYNDICATION & VALUE ENGINEERING</p>
+            <p>
+            We facilitate the massive injection of transformative capital into high-growth enterprises. Our Private Equity Services division operates as the bridge between scalable corporations and the reservoirs of institutional wealth held by Private Equity (PE) firms. We do not merely find investors; we architect a fundamental shift in ownership structure to unlock the large amounts of money required for exponential scaling.
+            <br><br>
+            Our mandate begins with <strong>Strategic Equity Placement</strong>. We negotiate the sale of a significant ownership stake in the company, structuring the transaction to balance capital inflow with the preservation of promoter influence. Equity dilution is engineered so that it is mathematically justified by the projected acceleration in Enterprise Value (EV).
+            <br><br>
+            Once capital is deployed, we drive <strong>Operational Recalibration & Management Professionalization</strong>. PE investors demand governance and performance, not just growth. We restructure leadership hierarchies, implement rigorous KPI tracking, and enforce governance standards aligned with global institutional expectations.
+            <br><br>
+            The infused capital is then weaponized for <strong>Expansion & Restructuring</strong> — market penetration, capacity expansion, and strategic acquisitions that convert capital inflow into dominance.
+            <br><br>
+            Finally, we engineer the <strong>Liquidity Event & Exit Mechanism</strong>. Private equity is temporary; the objective is always a profitable exit. We prepare the company for secondary sales, strategic buyouts, or IPOs, managing investor relationships across the lifecycle so that stake sales deliver target IRRs.
+            <br><br>
+            In short, we weaponize institutional capital to force growth, restructure operations for efficiency, and engineer lucrative exits for all stakeholders.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 4 · SUB-PAGE 1-1</p>
+                <h4 class="role-accent">The Institutional Equity Injection Mechanism™</h4>
+                <p class="role-desc">Phase-wise mechanism for aligning thesis, modeling, negotiation, deployment, and exit with institutional PE investors.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 4 · SUB-PAGE 1-2</p>
+                <h4 class="role-accent">Stake Dilution & Management Professionalization</h4>
+                <p class="role-desc">Governance upgrades, KPI regimes, and ownership recalibration after institutional capital entry.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Consumer Electronics Brand</h4>
+                <p class="role-desc">Series B Growth Capital Syndication. Capital Raise: $30 Million · Status: Closed with Tier-1 Global PE Fund</p>
+                
+                <h4 class="role-accent">Super-Specialty Hospital</h4>
+                <p class="role-desc">Private Equity Buyout (Secondary Sale). Enterprise Value: ₹ 750 Crores · Status: Promoter Exit Facilitated</p>
+                
+                <h4 class="role-accent">Agri-Tech Enterprise</h4>
+                <p class="role-desc">Strategic Investment & Structuring. Stake Dilution: 18% Equity · Status: Funded & Board Reconstituted</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Foreign investment is managed under the Foreign Exchange Management (Non-debt Instruments) Rules, 2019 and other applicable RBI/SEBI norms.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Ozzuno Capital facilitates the capital raising process but does not guarantee valuation or closure of a funding round. All investors are subject to AML and KYC checks. Shareholders' Agreements are binding; governance disputes post-investment fall outside our liability.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-13": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 4 · Private Capital & Alternatives</p>
+        <h2>AIF Structuring & Advisory</h2>
+        <p class="brief-text">Category I, II & III Alternative Investment Fund capital matching and regulatory structuring.</p>
+        <div class="brief-status">
+          <span>FOCUS: FUND ADVISORY</span>
+          <span>GRID: AIF SERVICES</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">2. ALTERNATIVE INVESTMENT FUND (AIF) STRUCTURING & ADVISORY</p>
+            <p>
+            We navigate the exclusive and highly regulated domain of Alternative Investment Funds (AIFs), connecting corporations with non-traditional investors who operate outside the conventional banking system. Our AIF Advisory division mobilizes capital through Category I, II, and III AIF structures.
+            <br><br>
+            We begin with <strong>Capital Matching & Regulatory Alignment</strong>. We find the right AIF for the company by aligning the fund's investment thesis — venture capital, private credit, hedge — with the client's capital needs and risk profile.
+            <br><br>
+            Our core work lies in <strong>Transaction Structuring & Documentation Architecture</strong>. We manage drafting and vetting of investment documents — Private Placement Memorandum (PPM), Contribution Agreements, Subscription Deeds — and structure instruments (equity, debt, hybrid) to satisfy both issuer and fund requirements.
+            <br><br>
+            We then lead <strong>Commercial Negotiation & Compliance Management</strong> — valuation caps, liquidation preferences, information rights, anti-dilution, and downside protections are negotiated with an eye to long-term alignment.
+            <br><br>
+            Throughout, we ensure strict adherence to SEBI (AIF) Regulations, constructing deals that can endure regulatory scrutiny while unlocking access to sophisticated private capital.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 4 · SUB-PAGE 2-1</p>
+                <h4 class="role-accent">The Alternative Capital Conduit™</h4>
+                <p class="role-desc">A phase-wise conduit connecting corporate capital needs with AIFs under a strict regulatory shell.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 4 · SUB-PAGE 2-2</p>
+                <h4 class="role-accent">Category I, II, III Fund Matching</h4>
+                <p class="role-desc">Mapping use-cases and risk profiles to the right AIF categories and strategies.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Real Estate Yield Fund</h4>
+                <p class="role-desc">Category II AIF Setup & Fundraising. Corpus: ₹ 600 Crores · Status: Green Shoe Option Exercised</p>
+                
+                <h4 class="role-accent">Venture Debt Fund</h4>
+                <p class="role-desc">Deployment Strategy & Advisory. Deployment Size: ₹ 300 Crores · Status: Active Portfolio Construction</p>
+                
+                <h4 class="role-accent">Single Family Office</h4>
+                <p class="role-desc">Structured Credit Investment. Ticket Size: ₹ 75 Crores · Status: Deployed via Cat II AIF Vehicle</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Advisory is governed by SEBI (Alternative Investment Funds) Regulations, 2012 and applicable circulars.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Private placements target sophisticated investors (₹ 1 Cr+ minimum). The PPM is the definitive risk document. Returns are market-linked and principal may be at risk. Ozzuno Capital acts as an arranger, not as the fund manager.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-14": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 5 · Global Markets & Treasury</p>
+        <h2>Cross-Border Capital, ECB & Trade Finance</h2>
+        <p class="brief-text">Cross-border capital markets access, ECB syndication, global invoice discounting and growth funding under a unified treasury protocol.</p>
+        <div class="brief-status">
+          <span>SOURCE: OVERSEAS INVESTMENTS</span>
+          <span>GRID: TREASURY PROTOCOL</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. CROSS-BORDER CAPITAL MARKETS, ECB & GLOBAL LIQUIDITY PROTOCOLS</p>
+            <p>
+           We erase national borders to access superior liquidity and competitive cost of capital in global markets. Our Overseas Investments & Capital Services division specializes in navigating FEMA and international banking protocols to facilitate External Commercial Borrowings (ECB) for Indian corporates.
+
+We enable companies to take loans from foreign lenders by exploiting interest rate arbitrage between domestic benchmarks and global curves (SOFR, LIBOR successors), securing debt at competitive rates. Our team manages end-to-end regulatory approvals and compliance — all paperwork, RBI filings, and approvals required to legitimize foreign debt inflows.
+
+In parallel, we accelerate working capital velocity via Global Invoice Discounting & Factoring. We unblock cash trapped in supply chains by selling or discounting export invoices with global financiers, converting receivables into instant liquidity and ensuring operations are not strangled by cash flow delays.
+
+For longer-term expansion, we execute International Growth Funding Syndication, connecting domestic enterprises with global investors for cross-border expansion mandates.
+
+Across all these flows, we act as the central interface for lender liaison & cross-border legalities— negotiating facility agreements under international law, scrutinizing cross-border regulations, and ensuring funds are raised smoothly, safely, and compliantly.
+
+In short, we open the floodgates of global finance, allowing companies to raise foreign loans, liquidate receivables instantly, and secure international growth capital without being entangled in regulatory wires.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 5 · SUB-PAGE 1-1</p>
+                <h4 class="role-accent">The Cross-Border Liquidity Bridge™</h4>
+                <p class="role-desc">Phase-wise matrix connecting ECB, invoice discounting and growth funding into a single cross-border liquidity rail.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 5 · SUB-PAGE 1-2</p>
+                <h4 class="role-accent">ECB Syndication & Foreign Debt Architecture</h4>
+                <p class="role-desc">Detailed architecture for sourcing, structuring and hedging external commercial borrowings.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Solar Power Producer (IPP)</h4>
+                <p class="role-desc">External Commercial Borrowing (ECB). Debt Raise: $65 Million - Status: LRN Generated & Funds Repatriated.</p>
+                
+                <h4 class="role-accent">Textile Exporter</h4>
+                <p class="role-desc">International Factoring Facility. Revolving Limit: $20 Million - Status: Active Liquidity Line.</p>
+                
+                <h4 class="role-accent">IT Services Firm</h4>
+                <p class="role-desc">US Market Expansion Growth Funding. Capital Injection: $15 Million - Status: Funded by Global Strategic Investor.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Cross-border transactions are executed in strict compliance with FEMA, 1999 and RBI Master Directions on ECB and Trade Credit.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients acknowledge inherent foreign exchange volatility risk. Hedging is mandated but Ozzuno Capital is not liable for losses arising from currency movement or sovereign risk in the lender's jurisdiction.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-15": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 6 · Unlisted Securities & Grey Market</p>
+        <h2>Unlisted Securities & Pre-IPO Arbitrage</h2>
+        <p class="brief-text">Intermediation, liquidity and leverage solutions in unlisted, pre-IPO and grey-market equity for institutional power players.</p>
+        <div class="brief-status">
+          <span>SOURCE: UNLISTED & PRE-IPO SHARES SERVICES</span>
+          <span>GRID: SHADOW BANKING SYSTEM</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. UNLISTED SECURITIES INTERMEDIATION & PRE-IPO EQUITY ARBITRAGE</p>
+            <p>
+              Operating within the opaque and illiquid corridors of the Over-the-Counter (OTC) markets, our Unlisted & Pre-IPO Services division provides sophisticated investors with privileged access to off-market equity before value is diluted by public discovery. We facilitate the acquisition and liquidation of high-alpha assets in an ecosystem typically restricted to institutional power players. This is not retail trading; this is the strategic accumulation of ownership in the shadow banking system.
+
+Our Proprietary Trading Infrastructure serves as a liquidity engine for unlisted, pre-IPO, and ESOP (Employee Stock Ownership Plan) securities. We bridge the gap between fragmented sellers and institutional buyers, creating a secure, settlement-guaranteed environment for the transfer of ownership in companies that are on the cusp of exponential valuation shifts.
+
+We provide Institutional Investment Guidance that transcends simple stock picking. Our analysts dissect cap tables, growth vectors, and sector dynamics of upcoming enterprises, identifying undervalued assets with private equity–grade rigor. Capital is allocated into entities with robust fundamentals that have yet to undergo the price discovery of a public exchange.
+
+Beyond facilitation, we offer Transaction Financing & Leverage Solutions. Recognizing that high-value pre-IPO blocks require significant capital, we engineer funding mechanisms and loan structures that allow investors to leverage positions via debt-syndicated acquisition models — amplifying return on equity (ROE).
+
+This is supported by a rigorous Valuation & Compliance Framework. In unlisted markets, price is subjective; we make it empirical. Independent valuation assessments using DCF and comparable company analysis validate pricing, while documentation is curated to legitimize off-market transfers in strict adherence with Section 56(2) of the Income Tax Act and other statutes governing fair market value.
+
+Our Client Assistance & Deal Execution team manages transactions from term sheet to share certificate transfer. We navigate ROFR clauses, shareholder agreements and lock-in periods, acting as central counterparty to deliver settlement with zero operational friction.
+
+In essence, we democratize access to the venture stage, allowing investors to trade in the exclusive domain of pre-public equity with the safety, valuation rigor and support typically reserved for sovereign wealth funds.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 6 · SUB-PAGE 1-1</p>
+                <h4 class="role-accent">The Grey Market Liquidity Engine™</h4>
+                <p class="role-desc">Execution matrix for safe, compliant and fully-settled trading of off-market unlisted and pre-IPO equity.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 6 · SUB-PAGE 1-2</p>
+                <h4 class="role-accent">The Trading Desk (Live Quotes)</h4>
+                <p class="role-desc">Quote discovery, two-way pricing and order execution protocols for unlisted and pre-IPO blocks.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 6 · SUB-PAGE 1-3</p>
+                <h4 class="role-accent">Valuation & Compliance Checks</h4>
+                <p class="role-desc">FMV determination, documentation and regulatory alignment for safe off-market share transfers.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Ed-Tech Leader</h4>
+                <p class="role-desc">Employee Stock Option (ESOP) Liquidation Block. Value: ₹85 Crores - Status: 100% Placement.</p>
+                
+                <h4 class="role-accent">National Retail Chain</h4>
+                <p class="role-desc">Strategic Pre-IPO Equity Acquisition. Deal Size: ₹150 Crores - Status: Executed at 15% Discount.</p>
+                
+                <h4 class="role-accent">Aerospace & Defence Startup</h4>
+                <p class="role-desc">Series-C Secondary Exit. Volume: 2.5 Lakh Shares - Status: Cleared & Settled (T+1).</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Transactions are governed by Section 56(2)(x) of the Income Tax Act, 1961, for Fair Market Value (FMV) determination.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Investments in unlisted securities are highly illiquid and lack a public price discovery mechanism. Pre-IPO shares may be subject to post-listing lock-ins.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-16": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 7 · Assurance, Tax & Risk</p>
+        <h2>Forensic Assurance & Global Taxation</h2>
+        <p class="brief-text">Fiscal compliance architecture, forensic assurance and global taxation strategy wrapped into a single integrity shield.</p>
+        <div class="brief-status">
+          <span>SOURCE SERVICE: ACCOUNTING & TAX SERVICES</span>
+          <span>GRID: FISCAL INTEGRITY SHIELD</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. FISCAL COMPLIANCE ARCHITECTURE, FORENSIC ASSURANCE & GLOBAL TAXATION STRATEGY</p>
+            <p>
+              In an environment of draconian regulatory oversight and relentless statutory flux, financial management is not merely an administrative function; it is the first line of defense against corporate erosion. Our Accounting & Tax Services division operates as an impregnable fortress of fiscal integrity, ensuring that your enterprise’s books are not just balanced, but bulletproof. We do not simply “check” financial statements; we execute Statutory Audit & Forensic Assurance protocols that border on the inquisitorial.
+
+Our auditors deploy rigorous stress-testing methodologies to dissect your financial assertions, validating the veracity of every ledger entry against the strictest interpretations of Ind AS and IFRS. We scrutinize internal controls to identify microscopic fractures in financial governance before they manifest as material misstatements or fraud risks.
+
+Our approach to Strategic Tax Consulting is equally aggressive. Tax is treated not as a passive liability, but as a variable to be engineered. We construct complex, multi-jurisdictional tax architectures designed to legally minimize fiscal hemorrhage — optimizing effective tax rates through legitimate deduction strategies and transfer pricing mechanisms.
+
+This extends to Business & Transaction Advisory for high-stakes capital events such as IPOs, mergers and acquisitions. We model the financial implications of every deal structure, ensuring tax consequences do not cannibalize commercial benefits.
+
+We also offer a totalized Financial Outsourcing Solution. We assume command of your financial backend — accounts payable / receivable, payroll and statutory filings — so leadership can detach from compliance tedium while we maintain a relentless vigil over regulatory standing.
+
+With Global and Domestic Support infrastructure, we service both Indian entities and international conglomerates, harmonizing GST mandates, cross-border reporting and multi-GAAP alignment. In summation, we provide a shield of absolute financial compliance — proper accounting, strategic tax planning, and the rigorous audit defense required to survive in a hostile regulatory climate.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 7 · SUB-PAGE 1-1</p>
+                <h4 class="role-accent">The Fiscal Integrity Shield™</h4>
+                <p class="role-desc">Execution matrix for forensic ledger scrutiny, internal control stress testing and strategic tax architecture.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 7 · SUB-PAGE 1-2</p>
+                <h4 class="role-accent">Transfer Pricing & International Tax</h4>
+                <p class="role-desc">Structures for BEPS-aligned transfer pricing, cross-border tax planning and multi-jurisdictional compliance.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Global MNC Subsidiary</h4>
+                <p class="role-desc">Turnover Scrutinized: ₹3,200 Crores - Status: Zero Non-Compliance Observations.</p>
+                
+                <h4 class="role-accent">Infrastructure Developer</h4>
+                <p class="role-desc">Asset Base: ₹1,500 Crores - Status: Fraud Risk Matrix Nullified.</p>
+                
+                <h4 class="role-accent">IT Services Exporter</h4>
+                <p class="role-desc">Geography: India, USA, UAE, Singapore - Status: Ongoing Multi-Jurisdictional Retainer.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Engagements are aligned with Standards on Auditing (SAs) issued by ICAI and the Ind AS framework.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients retain primary responsibility for the veracity of source documents; Ozzuno Capital bears no liability for penalties arising from concealed facts.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-17": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">Level 7 · Assurance, Tax & Risk</p>
+        <h2>Enterprise Risk Management (ERM)</h2>
+        <p class="brief-text">Threat vector identification, mitigation and remediation across financial, legal, operational and cyber domains.</p>
+        <div class="brief-status">
+          <span>SOURCE SERVICE: RISK CONSULTING SERVICES</span>
+          <span>GRID: RISK NEUTRALIZATION MATRIX</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. ENTERPRISE RISK MANAGEMENT (ERM) & THREAT VECTOR NEUTRALIZATION</p>
+            <p>
+              In a volatile global economy, ignorance is a liability. Our Risk Consulting Services division provides a panoramic surveillance system designed to <strong>find risks and avoid losses</strong> before they manifest as catastrophic failures. We audit the enterprise across four critical dimensions: 
+              <br><br>
+              <strong>Financial Risk Assessment</strong> (liquidity ratios and credit exposure), <strong>Legal & Regulatory Risk Audit</strong> (contractual breaches), <strong>Operational Risk Architecture</strong> (supply chain failure points), and <strong>Cybersecurity & InfoSec Protocols</strong> (digital perimeter defense). 
+              <br><br>
+              Our value proposition lies in Solution Deployment & Remediation—implementing internal controls and disaster recovery plans so risk management becomes a proactive strategic asset.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 7 · SUB-PAGE 2-1</p>
+                <h4 class="role-accent">The Threat Neutralization Protocol™</h4>
+                <p class="role-desc">Enterprise risk scanning, stress testing and remediation matrix for finance, legal and operations.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 7 · SUB-PAGE 2-2</p>
+                <h4 class="role-accent">Cybersecurity & InfoSec Audits</h4>
+                <p class="role-desc">CERT-In aligned cyber audits, penetration testing and InfoSec hardening for digital resilience.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Scheduled Co-operative Bank</h4>
+                <p class="role-desc">Asset Liability: ₹12,000 Crores - Status: ISO 27001 Certification Achieved.</p>
+                
+                <h4 class="role-accent">Pharma Exporter (API)</h4>
+                <p class="role-desc">Facility Scope: 3 Units - Status: USFDA/EMA Compliance Shield Implemented.</p>
+                
+                <h4 class="role-accent">Petrochemical Plant</h4>
+                <p class="role-desc">Operational Hazard & Safety Assessment - Status: End-to-End Plant Ops Secured.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Frameworks aligned with COSO ERM, ISO 31000 and CERT-In guidelines for cybersecurity.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> We deploy mitigation protocols but do not act as an insurer. Black swan events cannot be fully eliminated; clients remain responsible for residual risk coverage.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-18": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 8 · THE INTELLIGENCE DIRECTORATE</p>
+        <h2>Market Intelligence & Predictive Analytics</h2>
+        <p class="brief-text">Empirical market intelligence, data analytics and strategic foresight for high-stakes corporate decisions.</p>
+        <div class="brief-status">
+          <span>SOURCE SERVICE: RESEARCH & ANALYSIS SERVICES</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. EMPIRICAL MARKET INTELLIGENCE, DATA ANALYTICS & STRATEGIC FORESIGHT</p>
+            <p>
+              In the modern economy, data is the only currency that matters. Without it, a corporation is blind, navigating a minefield of volatility. Our Research & Analysis Services division functions as your external intelligence agency, harvesting and synthesizing vast datasets to provide the empirical bedrock for high-stakes corporate decision-making. We do not guess; we measure.
+              <br><br>
+              Our <strong>Market Research & Segmentation</strong> protocols involve deep-dive forensic analysis of industry verticals—dissecting supply chain dynamics, competitive saturation and emerging macroeconomic vectors to pinpoint where opportunity actually resides.
+              <br><br>
+              We delve into the psychology of the market via <strong>Consumer Behavior Analysis</strong>. Using psychographic profiling and behavioral economics, we decode the neuro-linguistic triggers that drive purchasing decisions, allowing you to anticipate what the market prefers before the market itself is aware.
+              <br><br>
+              This is reinforced by <strong>Technology Research & Trend Forecasting</strong>. We monitor disruptive technology curves and industrial developments, ensuring your business model does not become collateral damage to an unseen innovation wave.
+              <br><br>
+              Raw data is distilled into <strong>Strategic Insights</strong>. We translate abstract numbers into battlefield-ready corporate strategy—guiding expansion, pricing, product and capital allocation with mathematical precision.
+              <br><br>
+              Through integrated <strong>Analytics Solutions</strong>, we embed business intelligence tooling into operational workflows so that governance becomes truly evidence-based. Every decision is validated by our algorithms.
+              <br><br>
+              In essence, we provide the data-based insights critical for survival—helping companies understand granular market realities, hidden customer desires and the inevitable trends that define the future.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">LEVEL 8 · SUB-PAGE 1-1</p>
+                <h4 class="role-accent">The Empirical Intelligence Vector™</h4>
+                <p class="role-desc">Matrix for data harvesting, analytics and strategic insight generation across markets and consumers.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">LEVEL 8 · SUB-PAGE 1-2</p>
+                <h4 class="role-accent">Consumer Psychographics & Behavior</h4>
+                <p class="role-desc">Psychographic segmentation and behavior modeling to decode the hidden triggers behind demand.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">THE RESEARCH VAULT</p>
+                <h4 class="role-accent">Macro-Economic Outlooks</h4>
+                <p class="role-desc">Top-down views on growth, inflation, rates and liquidity cycles.</p>
+                
+                <h4 class="role-accent">Sectoral Whitepapers</h4>
+                <p class="role-desc">Deep-dive theses on industries, value pools and disruption vectors.</p>
+                
+                <h4 class="role-accent">Regulatory Gazettes</h4>
+                <p class="role-desc">Curated regulatory updates with impact mapping for businesses.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Research reports are prepared in the spirit of SEBI (Research Analysts) Regulations, 2014.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Intelligence outputs are intended for institutional strategic planning and do not constitute retail investment advice unless explicitly stated. Data integrity is maintained via ISO 27001 standards, but third-party sources may carry inherent inaccuracies.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-19": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 9 · PARTNER ECOSYSTEM & FRANCHISE</p>
+        <h2>Financial Distribution & Franchise Grid</h2>
+        <p class="brief-text">Syndicated financial distribution and franchise ecosystem infrastructure, built as a high-velocity B2B2C network.</p>
+        <div class="brief-status">
+          <span>SOURCE SERVICE: FINANCIAL PRODUCTS VIA FRANCHISE MODEL</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. SYNDICATED FINANCIAL DISTRIBUTION & FRANCHISE ECOSYSTEM INFRASTRUCTURE</p>
+            <p>
+              We have engineered a monolithic B2B2C distribution grid that allows our partners to weaponize their reach through a <strong>Financial Franchise Model</strong>. This is not a simple partnership; it is the deputization of entities into a high-velocity financial sales machinery. We grant franchisees access to an exhaustive, institutional-grade inventory of financial instruments, transforming them into localized financial powerhouses.
+              <br><br>
+              At the core of this ecosystem is our <strong>Credit Syndication & Liquidity Injection</strong> capability. Partners distribute a diverse spectrum of debt products — secured Home Loans, Loans Against Property (LAP), unsecured Business Loans and liquid Gold Loans. We provide the underwriting framework and banking relationships; the partner provides the distribution channel.
+              <br><br>
+              Simultaneously, we integrate a comprehensive <strong>Risk Transfer & Insurance Suite</strong>. Partners can underwrite client risks via Life and General Insurance products using our carrier networks.
+              <br><br>
+              This is complemented by our <strong>Broking & Investment Architecture</strong>, which opens the gateway to capital markets. Franchisees facilitate stock trading, manage Demat accounts and distribute mutual fund units, democratizing equity participation.
+              <br><br>
+              We elevate this further with <strong>Wealth Management Products</strong>, including sophisticated investment portfolios and research support once reserved for private banking.
+              <br><br>
+              The linchpin is our <strong>Unified Digital Marketplace</strong>. All products — loans, policies and investments — converge on a single algorithmic platform where every transaction can be accessed, processed and tracked. This digital infrastructure acts as the central nervous system of the franchise.
+              <br><br>
+              In short, we enable partners to offer a totalized suite of financial solutions under one dominant brand umbrella, creating a scalable, robust and relentlessly profitable capital distribution network.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE 9-1-1</p>
+                <h4 class="role-accent">The B2B2C Distribution Grid™</h4>
+                <p class="role-desc">Execution matrix for partner qualification, territory mapping, digital integration and payout governance.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">SUB-PAGE 9-1-2</p>
+                <h4 class="role-accent">Partner Application Portal</h4>
+                <p class="role-desc">Digital onboarding rail for prospective franchise partners — KYC, profiling and eligibility screening.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">REPRESENTATIVE MANDATES</p>
+                <h4 class="role-accent">Master Franchise (Western Zone)</h4>
+                <p class="role-desc">Secured Credit Disbursement Portfolio<br>AUM: ₹450 Crores - Status: Active (NPA < 0.5%)</p>
+                
+                <h4 class="role-accent">Corporate Insurance Partner</h4>
+                <p class="role-desc">Risk Underwriting Volume – General & Life<br>GWP: ₹65 Crores - Status: Renewal Rate 92%</p>
+                
+                <h4 class="role-accent">Wealth Distribution Network</h4>
+                <p class="role-desc">Mutual Fund & Equity SIP Book<br>Monthly Flow: ₹25 Crores / Month - Status: Scaling Aggressively</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
+                <p class="role-desc"><strong>Regulatory Mandate:</strong> Solicitation of financial products is conducted through licenses under AMFI (Mutual Funds), IRDAI (Insurance) and RBI (Lending) held by partners and network institutions.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Franchise partners operate as independent entities under the Ozzuno compliance umbrella. Credit decisions remain at the sole discretion of lenders. Investment products are subject to market risks; past performance is not indicative of future returns. Ozzuno Capital acts as a distributor, not a risk underwriter.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-20": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 10 · ASSET MANAGEMENT & WEALTH</p>
+        <h2>The Wealth Preservation Protocol</h2>
+        <p class="brief-text">Intergenerational capital architecture and portfolio engineering for UHNWIs and family offices, built on preservation, structural alpha and fiduciary discipline.</p>
+        <div class="brief-status">
+          <span>10. ASSET MANAGEMENT & WEALTH · THE WEALTH PRESERVATION PROTOCOL</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. THE WEALTH PRESERVATION PROTOCOL</p>
+            <p>
+              We do not "manage money"; we construct Fortresses of Intergenerational Wealth. Our Asset Management division is separated from retail participation and restricted to a closed loop of Ultra-High-Net-Worth Individuals (UHNWIs) and Single Family Offices (SFOs) who demand more than market returns — they demand Capital Sovereignty.
+              <br><br>
+              Our primary mandate is the preservation of purchasing power against the erosive forces of inflation, taxation and currency debasement. In a regime where traditional "60/40" constructs are obsolete, we deploy Alpha Generation through Structural Arbitrage, rejecting passive "buy and hold" in favour of active, algorithmic capital rotation.
+            </p>
+            <br>
+            <p class="modal-level">PORTFOLIO ENGINEERING STRATEGY</p>
+            <p>Our investment philosophy is rigorously quantitative, using a multi-asset allocation framework diversified across non-correlated vectors:</p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">HIGH-CONVICTION EQUITY VECTOR</p>
+                <h4 class="role-accent">Concentrated Portfolios</h4>
+                <p class="role-desc">Targeting firms with monopolistic dominance and wide economic moats. We leverage the <strong>Research & Analysis Services</strong> stack to identify undervalued securities.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STRUCTURED YIELD ARCHITECTURE</p>
+                <h4 class="role-accent">Fixed-Income Instruments</h4>
+                <p class="role-desc">Access to private debt, securitized debt instruments (SDIs) and market-linked debentures (MLDs). Secured by collateral and delivered via our <strong>Financial Products via Franchise Model</strong>.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">ALTERNATIVE ASSET SILO</p>
+                <h4 class="role-accent">Unlisted & Pre-IPO Shares</h4>
+                <p class="role-desc">High-alpha domain with direct access to curated <strong>Alternative Investment Funds (AIFs)</strong> — venture, distressed assets and real estate yields.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">THE FIDUCIARY OBLIGATION</p>
+                <p class="role-desc">We operate under a strict fiduciary standard. Every construct is stress-tested against the client's risk tolerance, liquidity horizon and succession architecture. We do not distribute third-party products for commissions; we curate solutions purely around long-term wealth preservation.</p>
+                <p class="role-desc">Our Wealth Products desk provides continuous monitoring and rebalancing so portfolios stay aligned with evolving macro conditions. Through integrated <strong>Tax Consulting Services</strong>, gains are tax-optimized to prevent erosion.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">CLIENT ACCESS</p>
+                <h4 class="role-accent">The Wealth Preservation Protocol: Client Experience</h4>
+                <p class="role-desc">UHNWI and Family Office clients receive encrypted digital access to mandates, positions, risk analytics and multi-jurisdictional exposure maps via the [SECURE] UHNWI Portal.</p>
+                <ul class="role-desc" style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+                  <li>Consolidated multi-asset and multi-currency reporting</li>
+                  <li>Drawdown / distribution schedules and liquidity ladders</li>
+                  <li>Risk dashboards and stress-test visualizations</li>
+                  <li>Controlled multi-user access for family office teams</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-20": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 10 · ASSET MANAGEMENT & WEALTH</p>
+        <h2>The Wealth Preservation Protocol</h2>
+        <p class="brief-text">Intergenerational capital architecture and portfolio engineering for UHNWIs and family offices, built on preservation, structural alpha and fiduciary discipline.</p>
+        <div class="brief-status">
+          <span>10. ASSET MANAGEMENT & WEALTH · THE WEALTH PRESERVATION PROTOCOL</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">1. THE WEALTH PRESERVATION PROTOCOL</p>
+            <p>
+              We do not "manage money"; we construct Fortresses of Intergenerational Wealth. Our Asset Management division is separated from retail participation and restricted to a closed loop of Ultra-High-Net-Worth Individuals (UHNWIs) and Single Family Offices (SFOs) who demand more than market returns — they demand Capital Sovereignty.
+              <br><br>
+              Our primary mandate is the preservation of purchasing power against the erosive forces of inflation, taxation and currency debasement. In a regime where traditional "60/40" constructs are obsolete, we deploy Alpha Generation through Structural Arbitrage, rejecting passive "buy and hold" in favour of active, algorithmic capital rotation.
+            </p>
+            <br>
+            <p class="modal-level">PORTFOLIO ENGINEERING STRATEGY</p>
+            <p>Our investment philosophy is rigorously quantitative, using a multi-asset allocation framework diversified across non-correlated vectors:</p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">HIGH-CONVICTION EQUITY VECTOR</p>
+                <h4 class="role-accent">Concentrated Portfolios</h4>
+                <p class="role-desc">Targeting firms with monopolistic dominance and wide economic moats. We leverage the <strong>Research & Analysis Services</strong> stack to identify undervalued securities.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">STRUCTURED YIELD ARCHITECTURE</p>
+                <h4 class="role-accent">Fixed-Income Instruments</h4>
+                <p class="role-desc">Access to private debt, securitized debt instruments (SDIs) and market-linked debentures (MLDs). Secured by collateral and delivered via our <strong>Financial Products via Franchise Model</strong>.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">ALTERNATIVE ASSET SILO</p>
+                <h4 class="role-accent">Unlisted & Pre-IPO Shares</h4>
+                <p class="role-desc">High-alpha domain with direct access to curated <strong>Alternative Investment Funds (AIFs)</strong> — venture, distressed assets and real estate yields.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">THE FIDUCIARY OBLIGATION</p>
+                <p class="role-desc">We operate under a strict fiduciary standard. Every construct is stress-tested against the client's risk tolerance, liquidity horizon and succession architecture. We do not distribute third-party products for commissions; we curate solutions purely around long-term wealth preservation.</p>
+                <p class="role-desc">Our Wealth Products desk provides continuous monitoring and rebalancing so portfolios stay aligned with evolving macro conditions. Through integrated <strong>Tax Consulting Services</strong>, gains are tax-optimized to prevent erosion.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">CLIENT ACCESS</p>
+                <h4 class="role-accent">The Wealth Preservation Protocol: Client Experience</h4>
+                <p class="role-desc">UHNWI and Family Office clients receive encrypted digital access to mandates, positions, risk analytics and multi-jurisdictional exposure maps via the [SECURE] UHNWI Portal.</p>
+                <ul class="role-desc" style="margin-top: 10px; list-style-type: disc; padding-left: 20px;">
+                  <li>Consolidated multi-asset and multi-currency reporting</li>
+                  <li>Drawdown / distribution schedules and liquidity ladders</li>
+                  <li>Risk dashboards and stress-test visualizations</li>
+                  <li>Controlled multi-user access for family office teams</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-21": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 11 · TECHNOLOGY & INNOVATION</p>
+        <h2>The Digital Foundry</h2>
+        <p class="brief-text">Ozzuno Neural Core & algorithmic stack — proprietary infrastructure for millisecond capital markets execution.</p>
+        <div class="brief-status">
+          <span>11. TECHNOLOGY & INNOVATION · PROPRIETARY ALGORITHMIC INFRASTRUCTURE</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p>
+              Ozzuno Capital Services is, in essence, a technology company disguised as a financial institution. Our operations are powered by the <strong>Ozzuno Neural Core</strong>, a proprietary algorithmic stack that processes market data with millisecond latency.
+              <br><br>
+              We have moved beyond legacy financial systems to a cloud-native microservices architecture. This infrastructure allows us to execute complex Merchant Banking mandates and IPO management tasks with automated precision — from order orchestration to compliance logging.
+              <br><br>
+              Predictive machine learning models ingest datasets harvested by our Research & Analysis wing, identifying liquidity fractals and pricing inefficiencies in grey and public markets before they become visible to conventional participants.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">OZZUNO NEURAL CORE · STACK SNAPSHOT</p>
+                <ul class="role-desc" style="list-style-type: disc; padding-left: 20px;">
+                  <li>Cloud-native microservices with event-driven messaging for real-time market ingestion.</li>
+                  <li>Low-latency pricing engines scanning order books and grey market quotes.</li>
+                  <li>ML models for anomaly detection, liquidity mapping and spread optimization.</li>
+                  <li>Integrated with Merchant Banking & IPO workflows for automated allocation, alerting and reporting.</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-22": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 11 · TECHNOLOGY & INNOVATION</p>
+        <h2>Cyber-Sovereignty</h2>
+        <p class="brief-text">Zero-trust architecture, blockchain settlement and AI-driven compliance — a military-grade cyber grid for financial data.</p>
+        <div class="brief-status">
+          <span>CYBER-SOVEREIGNTY & DATA FORTIFICATION</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p>
+              In an era of digital warfare and state-sponsored espionage, our technology stack is designed for <strong>cyber-sovereignty</strong> — not just protection, but control over every byte of sensitive data.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item">
+                <p class="role-caption">BLOCKCHAIN SETTLEMENT LAYER</p>
+                <h4 class="role-accent">Immutable Ownership Rails</h4>
+                <p class="role-desc">We pilot distributed ledger technology (DLT) for unlisted share transfers and Private Equity cap tables, ensuring tamper-proof, transparent ownership records and audit-ready settlement trails.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">ZERO-TRUST ARCHITECTURE</p>
+                <h4 class="role-accent">Compartmentalized Access Control</h4>
+                <p class="role-desc">The internal network operates on <strong>Zero-Trust</strong>. Access to sensitive data — M&A due diligence, exit valuations and risk models — is governed by biometric authentication and strict role-based access. No operator views the entire data lake.</p>
+            </div>
+            <div class="role-item">
+                <p class="role-caption">AI-DRIVEN COMPLIANCE SENTINEL</p>
+                <h4 class="role-accent">Real-Time Regulatory Guardian</h4>
+                <p class="role-desc">Automated surveillance algorithms scan every transaction in real-time against SEBI regulations and Insider Trading norms, raising alerts, blocking suspicious flows and preserving unassailable corporate governance.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "content-23": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 11 · TECHNOLOGY & INNOVATION</p>
+        <h2>Fintech Solutions</h2>
+        <p class="brief-text">Digital lending and investment platforms built on a unified franchise marketplace — one rail for loans, insurance and capital markets access.</p>
+        <div class="brief-status">
+          <span>11. TECHNOLOGY & INNOVATION · DIGITAL MARKETPLACE ECOSYSTEM</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">FRANCHISE-SCALE FINTECH INFRASTRUCTURE</p>
+            <p>
+              Our Financial Products via Franchise Model is anchored by a monolithic <strong>Digital Marketplace</strong>. This platform aggregates APIs from multiple banks, NBFCs and insurance carriers into one cohesive operating layer.
+              <br><br>
+              Partners receive a unified dashboard for loan origination, insurance underwriting and investment processing. Every application, policy and order flows through the same orchestration engine, enabling true fintech-grade execution speed with institutional governance.
+              <br><br>
+              The outcome is a network of digitally armed franchisees who dispense financial products with the velocity of a startup, while retaining the advisory depth and risk discipline of a traditional merchant bank.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">PLATFORM FLOW · DIGITAL LENDING & INVESTMENTS</p>
+                <div class="flow-step">
+                  <h4 class="role-accent">1. API Aggregation Layer</h4>
+                  <p class="role-desc">Banking, insurance, broking and fund platforms integrated via secure APIs with unified authentication and logging.</p>
+                </div>
+                <div class="flow-step">
+                  <h4 class="role-accent">2. Partner Command Console</h4>
+                  <p class="role-desc">Franchise partners access one interface to originate digital loans, issue policies and route investment orders.</p>
+                </div>
+                <div class="flow-step">
+                  <h4 class="role-accent">3. Risk & Pricing Engine</h4>
+                  <p class="role-desc">Ozzuno Neural Core overlays eligibility checks, risk scores, product selection and pricing recommendations in real time.</p>
+                </div>
+                <div class="flow-step">
+                  <h4 class="role-accent">4. Settlement, Audit & Governance</h4>
+                  <p class="role-desc">Immutable logs, maker-checker flows and compliance workflows provide regulator-grade traceability for every transaction.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
   `
+  
 };
+const policyContents = {
+  "terms": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">GOVERNANCE · JURISDICTIONAL MANDATE</p>
+        <h2>Terms of Engagement</h2>
+        <p class="brief-text">Dictates the rules of engagement between the User and The Firm.</p>
+        <div class="brief-status">
+          <span>LEVEL: 01 · LEGAL BINDING · IT ACT 2000 COMPLIANT</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level"><b>PREAMBLE</b></p>
+            <p>
+              Access to the Ozzuno Capital digital domain constitutes irrevocable acceptance of these Terms of Engagement. These terms are legally binding under the <strong>Information Technology Act, 2000</strong> and its amendments.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">CLAUSE ARCHITECTURE · LEGAL RESTRAINTS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">01 — Section A: Limitation of Fiduciary Duty</h4>
+                  <p class="role-desc">All content including tickers, valuation matrices, and whitepapers is informational only. Nothing on this platform constitutes a solicitation to buy or sell securities.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">02 — Section B: Force Majeure & Indemnification</h4>
+                  <p class="role-desc">Users agree to indemnify and hold Ozzuno harmless against damages arising from reliance on hosted data. The Firm is not liable for failures caused by acts of God or market-halting events.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">03 — Section C: Exclusive Jurisdiction</h4>
+                  <p class="role-desc">All disputes shall fall under the exclusive jurisdiction of Courts in Mumbai, Maharashtra.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "data": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 02 · DATA SOVEREIGNTY</p>
+        <h2>Privacy Architecture</h2>
+        <p class="brief-text">Transforming standard data protection into a robust security protocol for the sovereign financial domain.</p>
+        <div class="brief-status">
+          <span>ENCRYPTION: AES-256 · COMPLIANCE: DPDP ACT 2023</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — DATA DOMICILE & COMPLIANCE</p>
+            <p>
+              Ozzuno Capital operates a sovereign data infrastructure compliant with the <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>. We do not "share" data; we quarantine it. All Client PII and SPDI is encrypted using AES-256 military-grade standards and domiciled exclusively within Tier-4 Data Centers in India.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">SECURITY PROTOCOLS · ARCHITECTURAL LAYERS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">ARTICLE II: Forensic Data Collection</h4>
+                  <p class="role-desc">User navigation constitutes consent to algorithmic metadata harvesting (IP triangulation, device fingerprinting) utilized solely for proprietary Risk Threat Modeling and KYC protocols.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">ARTICLE III: The "Zero-Leak" Guarantee</h4>
+                  <p class="role-desc">We maintain a "Zero-Trust" internal architecture. Access is restricted via biometric authentication. Liability is disclaimed for breaches resulting from the User's failure to maintain their own cybersecurity perimeter.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+};
+  
+
+// Function to open policy modals
+function openModal(type) {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+  
+  if (policyContents[type]) {
+    modalBody.innerHTML = policyContents[type];
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open");
+  } else {
+    modalBody.innerHTML = "<h2>Content Under Review</h2><p>This policy is currently being updated for 2025 compliance.</p>";
+    modal.style.display = "flex";
+  }
+}
 // Open modal on card click
 document.querySelectorAll(".card").forEach(card => {
   card.addEventListener("click", () => {
@@ -502,21 +1576,26 @@ window.addEventListener("click", (e) => {
   }
 });
 
-//--------------------->section 3<--------------------------------------- 
-
 document.addEventListener("DOMContentLoaded", () => {
   const observerOptions = {
-    threshold: 0.3 // Trigger when 30% of the section is visible
+    threshold: 0.2 // Trigger when 20% of the section is visible
   };
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        const cards = entry.target.querySelectorAll('.slide-card');
+        // Find both .slide-card AND .card inside the section
+        const cards = entry.target.querySelectorAll('.slide-card, .card');
         cards.forEach((card) => card.classList.add('reveal'));
+        observer.unobserve(entry.target);
       }
     });
   }, observerOptions);
-  const section3 = document.querySelector('#section-3');
-  if (section3) observer.observe(section3);
+
+  // Corrected the selector string to include all section IDs properly
+  const scrollSections = document.querySelectorAll('#section-3, #section-5, #section-7, #section-9, #section-11, #section-13,#section-14, #section-15, #section-16');
+  
+  scrollSections.forEach((section) => {
+    if (section) observer.observe(section);
+  });
 });
