@@ -108,7 +108,8 @@ body {
 
 /* MAIN TITLE */
 .p-title {
-  font-size: clamp(64px, 8vw, 110px);
+  margin-top: 10%;
+  font-size: clamp(64px, 4vw, 110px);
   font-weight: 600;
   letter-spacing: -2px;
   line-height: 1.05;
