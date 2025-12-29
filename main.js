@@ -2072,37 +2072,32 @@ const policyContents = {
 };
   
 
-// Function to open policy modals
-function openModal(type) {
-  const modal = document.getElementById("modal");
-  const modalBody = document.getElementById("modal-body");
-  
-  if (policyContents[type]) {
-    modalBody.innerHTML = policyContents[type];
-    modal.style.display = "flex";
-    document.body.classList.add("modal-open");
-  } else {
-    modalBody.innerHTML = "<h2>Content Under Review</h2><p>This policy is currently being updated for 2025 compliance.</p>";
-    modal.style.display = "flex";
-  }
-}
+// (removed duplicate openModal definition)
 // Open modal on card click
 function openModal(type) {
   const modal = document.getElementById("modal");
   const modalBody = document.getElementById("modal-body");
 
-  if (policyContents[type]) {
+  // Prefer cardContents for card popups, otherwise policyContents
+  if (typeof cardContents !== 'undefined' && cardContents[type]) {
+    modalBody.innerHTML = cardContents[type];
+  } else if (typeof policyContents !== 'undefined' && policyContents[type]) {
     modalBody.innerHTML = policyContents[type];
-    modal.style.display = "flex";
-    document.body.classList.add("modal-open");
 
-    // 🔥 CRITICAL
+    // Initialize white-paper handlers when showing that modal
     if (type === "white-paper") {
+      setTimeout(() => {
         bindWhitePaperAccordion();
         bindWhitePaperNav();
         bindWhitePaperForm();
+      }, 0);
     }
+  } else {
+    modalBody.innerHTML = "<h2>Content Under Review</h2><p>This content is not available yet.</p>";
   }
+
+  modal.style.display = "flex";
+  document.body.classList.add("modal-open");
 }
 
 // Close modal
@@ -2140,40 +2135,85 @@ document.addEventListener("DOMContentLoaded", () => {
   scrollSections.forEach((section) => {
     if (section) observer.observe(section);
   });
+
+  // Bind any element that exposes `data-content` to open the modal with that key
+  const interactiveCards = document.querySelectorAll('[data-content]');
+  interactiveCards.forEach((card) => {
+    card.style.cursor = 'pointer';
+    const key = card.getAttribute('data-content');
+    console.log('binding data-content ->', key);
+    card.addEventListener('click', (e) => {
+      console.log('card clicked ->', key, e.target);
+      const k = card.getAttribute('data-content');
+      if (k) openModal(k);
+    });
+  });
 });
 
 function bindWhitePaperAccordion() {
   // Use explicit maxHeight setting for smooth animation
-  document.querySelectorAll(".division").forEach(div => {
+  const divisions = Array.from(document.querySelectorAll('.division'));
+
+  // Helper to update open/closed state based on index
+  function setActiveIndex(openIndex) {
+    divisions.forEach((div, idx) => {
+      const content = div.querySelector('.division-content');
+      if (!content) return;
+      if (idx === openIndex) {
+        div.classList.add('active');
+        content.style.maxHeight = content.scrollHeight + 'px';
+        // focus first interactive element for accessibility
+        setTimeout(()=> {
+          const firstInput = content.querySelector('input, textarea, button, a');
+          if (firstInput) firstInput.focus();
+        }, 320);
+      } else {
+        div.classList.remove('active');
+        content.style.maxHeight = '0px';
+      }
+    });
+  }
+
+  // Initialize: on small screens keep all closed, on larger screens open the first division
+  const desktopOpen = window.innerWidth >= 900;
+  if (desktopOpen && divisions.length) {
+    setActiveIndex(0);
+  } else {
+    setActiveIndex(-1);
+  }
+
+  // Attach header click handlers to toggle individual divisions (and close others)
+  divisions.forEach((div, idx) => {
     const header = div.querySelector('.division-header');
     const content = div.querySelector('.division-content');
-    // ensure collapsed state
-    content.style.maxHeight = div.classList.contains('active') ? content.scrollHeight + 'px' : '0px';
+    if (!header || !content) return;
 
     header.addEventListener('click', () => {
       const isActive = div.classList.toggle('active');
 
-      // close other divisions
-      document.querySelectorAll('.division').forEach(other => {
-        if (other !== div) {
-          other.classList.remove('active');
-          const otherContent = other.querySelector('.division-content');
-          if (otherContent) otherContent.style.maxHeight = '0px';
-        }
-      });
-
-      // set maxHeight to scrollHeight when opening for smooth transition
       if (isActive) {
-        content.style.maxHeight = content.scrollHeight + 'px';
-        // move focus inside the opened content for accessibility
-        setTimeout(()=> {
-          const firstInput = content.querySelector('input, textarea, button, a');
-          if (firstInput) firstInput.focus();
-        }, 300);
+        // open this one and close others
+        setActiveIndex(idx);
       } else {
+        // close this
         content.style.maxHeight = '0px';
       }
     });
+  });
+
+  // Keep behavior responsive: collapse on small, open first on large when resizing across threshold
+  let lastWasDesktop = desktopOpen;
+  window.addEventListener('resize', () => {
+    const nowDesktop = window.innerWidth >= 900;
+    if (nowDesktop === lastWasDesktop) return;
+    lastWasDesktop = nowDesktop;
+    if (nowDesktop) {
+      // switch to desktop behaviour: open first
+      setActiveIndex(0);
+    } else {
+      // switch to mobile behaviour: close all
+      setActiveIndex(-1);
+    }
   });
 }
 

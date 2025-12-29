@@ -168,7 +168,7 @@ body {
 /* Left column */
 .section-left {
   background-color: #080612;
-  padding: 20px ;
+  padding: 40px ;
   max-width: 400px;
   flex: 1;
   text-align: left;
@@ -592,6 +592,8 @@ body.modal-open #section-2 {
   max-width: 400px;
   position: sticky;
   top: 150px;
+  padding: 40px;
+
 }
 
 #section-3 .section-right {
@@ -692,6 +694,8 @@ body.modal-open #section-2 {
     flex: 1;
     max-width: 400px;
     text-align: left;
+    background-color: #080612;
+    padding: 40px;
 }
 
 /* Match Section 2 Title/Desc Logic */
@@ -802,6 +806,8 @@ body.modal-open #section-2 {
   max-width: 450px;
   position: sticky;
   top: 150px;
+  padding: 40px;
+  
 }
 
 #section-5 .section-right {
@@ -845,7 +851,7 @@ body.modal-open #section-2 {
 /* Left Column - Fixed Width logic from Section 2 */
 #section-6 .section-left {
   background-color: #080612;
-  padding: 20px;
+  padding: 40px;
   max-width: 400px;
   flex: 1;
   text-align: left;
@@ -979,8 +985,9 @@ body.modal-open #section-2 {
   max-width: 450px;
   position: sticky;
   top: 150px;
-    background-color: #080612;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #080612;
+  padding: 40px;
+
 }
 
 #section-7 .section-right {
@@ -1021,21 +1028,21 @@ body.modal-open #section-2 {
 /* Left Grid Logic */
 .s8-left-grid-container {
     flex: 1.5;
+    padding: 40px;
 }
 
 .s8-cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 28px;
-    
+    max-width: 980px;
 }
 
 /* Individual Card - Match Section 4 Style */
 .s8-card {
     background-color: #080612;
-    border: 1px solid rgba(255,255,255,0.08);
     border-radius: 18px;
-    padding: 35px 30px;
+    padding: 40px;
     text-align: left;
     transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
     cursor: pointer;
@@ -1075,7 +1082,6 @@ body.modal-open #section-2 {
     max-width: 450px;
     text-align: left;
     background-color: #080612;
-    border: 1px solid rgba(255,255,255,0.08);
     padding: 20px;
 }
 
@@ -1160,8 +1166,7 @@ body.modal-open #section-2 {
   position: sticky;
   top: 150px;
   background-color: #080612;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  padding: 36px;
+  padding: 40px;
   margin-right: 28px; /* spacing away from center content */
 }
 
@@ -1313,6 +1318,7 @@ body.modal-open #section-2 {
   max-width: 400px;
   flex: 1;
   text-align: left;
+  padding: 40px;
 }
 
 #section-10 .section-level {
@@ -1445,9 +1451,8 @@ body.modal-open #section-2 {
     flex: 1;
     max-width: 480px;
     background-color: #080612;
-    border: 1px solid rgba(255, 255, 255, 0.08);
     margin-top: 10px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .s11-level {
@@ -1596,7 +1601,6 @@ body.modal-open #section-2 {
   max-width: 450px;
   background-color: #080612; /* Distinct dark color */
   padding: 40px;            /* Added padding so text isn't cramped */
-  border: 1px solid rgba(255, 255, 255, 0.08); /* Subtle border like the cards */
   text-align: left;
 }
 
@@ -1720,7 +1724,6 @@ body.modal-open #section-2 {
 #section-13 .section-left {
   flex: 0 0 400px;
   background-color: #080612;
-  border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 40px;
 }
 
@@ -2301,7 +2304,7 @@ body.modal-open #section-2 {
 }
 
 .division.active .division-content {
-  max-height: 900px;
+  /* Let JS set explicit inline maxHeight for smooth animation; keep padding for visible state */
   padding: 26px;
 }
 
