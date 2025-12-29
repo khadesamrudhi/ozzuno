@@ -2129,3 +2129,172 @@ body.modal-open #section-2 {
   height: 60px;
   border-radius: 50%;
 }
+
+/* ===== CONTACT MODAL OVERRIDE ===== */
+
+.modal-split-container {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  height: 100%;
+  background: radial-gradient(circle at top left, #0e1020, #05040a 70%);
+}
+
+/* ===== LEFT PANEL ===== */
+
+.modal-briefing {
+  padding: 64px 56px;
+  border-right: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-briefing .modal-level {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #8b8eff;
+  margin-bottom: 18px;
+}
+
+.modal-briefing h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 22px;
+}
+
+.modal-briefing .brief-text {
+  font-size: 15px;
+  color: rgba(255,255,255,0.65);
+  max-width: 360px;
+}
+
+.brief-status {
+  margin-top: 36px;
+  padding: 10px 14px;
+  border: 1px solid rgba(120,130,255,0.25);
+  width: fit-content;
+}
+
+.brief-status span {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+  color: #b8b5ff;
+}
+
+/* ===== RIGHT PANEL ===== */
+
+.modal-operations {
+  padding: 64px 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  overflow-y: auto;
+}
+
+
+.contact-form {
+  width: 100%;
+  max-width: 520px;
+  display: grid;
+  gap: 22px;
+}
+
+/* Labels */
+.contact-form label {
+  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+  display: flex;
+  gap: 6px;
+}
+
+.contact-form label span {
+  color: #ff6b6b;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 14px 16px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.contact-form textarea {
+  resize: none;
+  min-height: 110px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+
+/* Focus state */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #7a7cff;
+  box-shadow: 0 0 0 2px rgba(122,124,255,0.15);
+}
+
+/* Footer note */
+.form-note {
+  font-size: 12px;
+  color: rgba(255,255,255,0.45);
+  margin-top: -6px;
+}
+
+/* Button */
+.send-btn {
+  margin-top: 10px;
+  align-self: flex-end;
+  background: linear-gradient(135deg, #18c8ff, #7a7cff);
+  color: #000;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 28px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 40px rgba(122,124,255,0.45);
+}
+
+.division {
+  background: linear-gradient(180deg, #0c0e18, #07080f);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.division-header {
+  padding: 22px 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.division-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(0.4,0,0.2,1),
+              padding 0.3s ease;
+  padding: 0 26px;
+}
+
+.division.active .division-content {
+  max-height: 900px;
+  padding: 26px;
+}

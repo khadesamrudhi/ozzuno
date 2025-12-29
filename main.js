@@ -1535,6 +1535,460 @@ const policyContents = {
       </div>
     </div>
   `,
+  
+  "risk": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 03 · CAPITAL VIGILANCE</p>
+        <h2>Risk Disclosure</h2>
+        <p class="brief-text">This is the "Scare Document." It ensures no one can sue you if they lose money. Read the structural risks carefully.</p>
+        <div class="brief-status">
+          <span>RISK: EXTREME · EXPOSURE: SYSTEMIC · ASSETS: UNLISTED</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">WARNING — SYSTEMIC VOLATILITY & CAPITAL EROSION</p>
+            <p>
+              Investments in Capital Markets and Alternative Investment Funds (AIFs) are subject to <strong>Systemic Market Risks</strong>. Engaging in these markets may result in the partial or <strong>total erosion of the Principal Capital</strong>.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">OPERATIONAL CLAUSES · LEGAL PARAMETERS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">CLAUSE 1: Illiquidity of Unlisted Assets</h4>
+                  <p class="role-desc">Unlisted/Pre-IPO securities lack a centralized discovery mechanism. Liquidity is theoretically non-existent until a formal Listing Event. The Firm provides no warranty regarding timeline or certainty.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">CLAUSE 2: No Guarantee of Returns</h4>
+                  <p class="role-desc">Past performance and AUA trajectories are historical artifacts, not predictive indicators. The Firm explicitly disclaims any guarantee of fixed returns, capital protection, or dividend consistency.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">CLAUSE 3: Regulatory Flux</h4>
+                  <p class="role-desc">Asset valuation may be materially impacted by retrospective taxation, SEBI regulation changes, or geopolitical instability. The User assumes full liability for macro-environmental variables.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "aml": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 04 · FINANCIAL INTEGRITY</p>
+        <h2>AML & CFT Charter</h2>
+        <p class="brief-text">This charter implies the infrastructure holds police-like powers to freeze assets and enforce forensic financial transparency.</p>
+        <div class="brief-status">
+          <span>PROTOCOL: PMLA 2002 · AUTHORITY: FIU-IND · FATF COMPLIANT</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">STATUTORY MANDATE — PMLA ENFORCEMENT</p>
+            <p>
+              The Firm adheres strictly to the <strong>Prevention of Money Laundering Act (PMLA), 2002</strong> and guidelines issued by the <strong>Financial Intelligence Unit (FIU-IND)</strong>. We operate under a zero-tolerance mandate for illicit capital flow.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">ENFORCEMENT PROTOCOLS · FORENSIC VETTING</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">PROTOCOL 1: Source of Funds Verification</h4>
+                  <p class="role-desc">The Firm reserves the right to demand forensic proof of the "Source of Funds". Failure to provide evidence results in the immediate freezing of the engagement and the filing of a Suspicious Transaction Report (STR).</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">PROTOCOL 2: Politically Exposed Persons (PEPs)</h4>
+                  <p class="role-desc">Enhanced Due Diligence (EDD) is automatically triggered for PEPs or close associates. We reserve the right to decline mandates where the Ultimate Beneficial Owner (UBO) structure is opaque or domiciled in FATF Blacklist jurisdictions.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  
+  "whistle": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 05 · ECOSYSTEM INTEGRITY</p>
+        <h2>Compliance & Vigilance</h2>
+        <p class="brief-text">Establishing forensic financial transparency and internal oversight protocols to ensure absolute structural security.</p>
+        <div class="brief-status">
+          <span>PROTOCOL: PMLA 2002 · CHANNEL: ENCRYPTED OMBUDSMAN</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — AML & CFT CHARTER</p>
+            <p>
+              The Firm adheres to the <strong>Prevention of Money Laundering Act (PMLA), 2002</strong> and <strong>FIU-IND</strong> guidelines. This framework implies police-like powers to freeze assets and mandates a zero-tolerance policy for illicit capital flow.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">ENFORCEMENT & WHISTLEBLOWER PROTOCOLS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">PROTOCOL: Source of Funds & PEPs</h4>
+                  <p class="role-desc">We reserve the right to demand forensic proof of funds; failure results in immediate asset freezing and STR filing. Enhanced Due Diligence (EDD) is mandatory for Politically Exposed Persons (PEPs).</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">PROTOCOL: Vigil Mechanism</h4>
+                  <p class="role-desc">A secure, encrypted channel exists for reporting financial malfeasance or insider trading. Whistleblowers are granted "Protected Status" against retaliation.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">PROTOCOL: The Protected Disclosure Regime</h4>
+                  <p class="role-desc">Disclosures must be submitted to the Chairman of the Audit Committee via the Ombudsman Portal. Frivolous complaints with malicious intent will invoke legal defamation proceedings.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "privacy": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 05 · ECOSYSTEM SURVEILLANCE</p>
+        <h2>Integrity & Monitoring</h2>
+        <p class="brief-text">Deploying police-like powers to enforce financial transparency and persistent digital tracking protocols.</p>
+        <div class="brief-status">
+          <span>STATUS: ACTIVE MONITORING · PROTOCOL: PMLA & BEACON</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — AML & CFT ENFORCEMENT</p>
+            <p>
+              Adherence to the <strong>Prevention of Money Laundering Act (PMLA), 2002</strong> and <strong>FIU-IND</strong> guidelines is absolute. The Firm reserves the right to demand forensic proof of funds; failure results in the immediate freezing of the engagement and an <strong>STR filing</strong>.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">VIGILANCE & DIGITAL FORENSICS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Vigil Mechanism & Whistleblower Policy</h4>
+                  <p class="role-desc">A secure channel for reporting financial malfeasance. Disclosures are submitted to the Audit Committee; frivolous complaints with malicious intent will trigger legal defamation proceedings.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Digital Surveillance: Beacon Technology</h4>
+                  <p class="role-desc">This domain utilizes persistent cookies and pixel tags to map the User’s cognitive journey. This is not optional. Session replay data is fed into a Neural Core for fraud prevention.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">PEP & UBO Verification</h4>
+                  <p class="role-desc">Enhanced Due Diligence (EDD) is automatically triggered for Politically Exposed Persons. Mandates are declined if the Ultimate Beneficial Owner (UBO) is opaque or resides in non-compliant jurisdictions.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+
+  "liability": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 07 · TOTAL IMMUNITY</p>
+        <h2>Surveillance & Shield</h2>
+        <p class="brief-text">Establishing the final operational perimeter through forensic asset vetting and absolute liability exclusion.</p>
+        <div class="brief-status">
+          <span>MONITORING: PERSISTENT · LIABILITY: EXCLUDED · AUTHORITY: PMLA 2002</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — THE "AS-IS" SHIELD</p>
+            <p>
+              All intelligence, reports, and data are delivered on an <strong>"As-Is" and "As-Available" basis</strong>. The Firm expressly disclaims all warranties, including merchantability and fitness for a particular strategic purpose. Under no legal theory—tort, contract, or strict liability—shall the Firm be liable for any direct or consequential damages.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">ENFORCEMENT PROTOCOLS · DIGITAL FORENSICS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">AML & CFT: Forensic Vetting</h4>
+                  <p class="role-desc">Adherence to PMLA, 2002 is absolute. We reserve the right to demand forensic proof of "Source of Funds"; failure results in immediate asset freezing and the filing of a Suspicious Transaction Report (STR).</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Vigil Mechanism: Protected Disclosure</h4>
+                  <p class="role-desc">A secure, encrypted channel for reporting financial malfeasance. Whistleblowers gain "Protected Status," but frivolous complaints with malicious intent will trigger legal defamation proceedings.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">Digital Surveillance: Beacon Tech</h4>
+                  <p class="role-desc">This domain utilizes persistent cookies, pixel tags, and session replay to map the User’s cognitive journey. This is not optional. Data is analyzed for Service Optimization and Fraud Prevention.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">PEP & UBO Protocols</h4>
+                  <p class="role-desc">Enhanced Due Diligence (EDD) is automatic for Politically Exposed Persons (PEPs). Mandates are declined if the Ultimate Beneficial Owner (UBO) structure is opaque or on an FATF Blacklist.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "ip": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 08 · INTELLECTUAL DOMINION</p>
+        <h2>Sovereignty & Shield</h2>
+        <p class="brief-text">Establishing absolute proprietary control over the Neural Core and enforcing total liability immunity.</p>
+        <div class="brief-status">
+          <span>IP: PROTECTED · MONITORING: PERSISTENT · LIABILITY: EXCLUDED</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — PROPRIETARY DOMINION</p>
+            <p>
+              All distinct content, including the <strong>Neural Core</strong> and <strong>Architecture of Dominion</strong>, constitutes Exclusive Intellectual Property. Unauthorized reproduction, data scraping, or framing will invoke immediate <strong>Injunctive Relief</strong> and claims for Punitive Damages.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">ENFORCEMENT PROTOCOLS · DIGITAL FORENSICS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">The "As-Is" Shield</h4>
+                  <p class="role-desc">All intelligence is delivered on an "As-Is" basis. Under no legal theory—tort or contract—shall the Firm be liable for direct or consequential damages, including lost profits or data erosion.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Digital Rights Management (DRM)</h4>
+                  <p class="role-desc">Active DRM protocols monitor the distribution of Research Reports. Every downloaded asset is embedded with a unique Forensic Watermark traceable to the User’s IP address.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">Surveillance: Beacon Technology</h4>
+                  <p class="role-desc">Persistent cookies and pixel tags map the User’s cognitive journey. Session replay data is fed into a Neural Core for fraud prevention. This surveillance is mandatory for infrastructure access.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">Prohibition of Derivative Works</h4>
+                  <p class="role-desc">Users are strictly prohibited from creating derivative intelligence based on proprietary matrices. Violations are prosecuted within the High Court of Judicature.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+
+  "refund": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 09 · SYSTEMIC DOMINION</p>
+        <h2>Protocols of Engagement</h2>
+        <p class="brief-text">Establishing absolute proprietary sovereignty and capital retention mandates. This is the final layer of structural immunity.</p>
+        <div class="brief-status">
+          <span>IP: RESTRICTED ASSET · FEES: NON-REFUNDABLE · MONITORING: PERSISTENT</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">ARTICLE I — THE RETAINER PRINCIPLE</p>
+            <p>
+              All professional fees, including <strong>Engagement Retainers</strong> and <strong>Advisory Levies</strong>, are deemed Earned Upon Receipt. The infrastructure operates under a strict <strong>"No-Refund / No-Reversal"</strong> statute; funds are allocated immediately to the deployment of human and intellectual capital.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">PROPRIETARY SHIELDS · DIGITAL FORENSICS</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Intellectual Property Sovereignty</h4>
+                  <p class="role-desc">Distinct content including the Neural Core and Valuation Matrices constitute Exclusive Intellectual Property protected under the Copyright Act, 1957. Unauthorized "Data Scraping" or "Framing" will trigger immediate Injunctive Relief.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Digital Surveillance: Beacon Tech</h4>
+                  <p class="role-desc">The domain utilizes persistent cookies, pixel tags, and session replay to map the User’s cognitive journey. This surveillance is mandatory for Service Optimization and Fraud Prevention.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">Liability Immunity: The "As-Is" Clause</h4>
+                  <p class="role-desc">All intelligence is delivered on an "As-Is" basis. Under no legal theory—tort, contract, or strict liability—shall the Firm be liable for direct, incidental, or consequential damages, including lost profits.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">Forensic DRM & Force Majeure</h4>
+                  <p class="role-desc">Every downloaded asset is embedded with a unique Forensic Watermark traceable to the User's IP. No refunds are processed for service interruptions caused by sovereign policy shifts or systemic market halts.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  "ethics": `
+    <div class="modal-split-container">
+      <div class="modal-briefing">
+        <p class="modal-level">LEVEL 12 · ETHICAL DOMINION</p>
+        <h2>Human Dignity Manifesto</h2>
+        <p class="brief-text">Enforcing a zero-tolerance perimeter against systemic labor violations and establishing forensic ethical audits across the ecosystem.</p>
+        <div class="brief-status">
+          <span>COMPLIANCE: UK MODERN SLAVERY ACT · AUDIT: MANDATORY · STATUS: ETHICAL SHIELD</span>
+        </div>
+      </div>
+      
+      <div class="modal-operations">
+        <div class="modal-info-card">
+            <p class="modal-level">DECLARATION — ZERO-TOLERANCE STANCE</p>
+            <p>
+              The Firm enforces a strict mandate against modern slavery, human trafficking, and forced labor within its supply chain and client ecosystem. We align all operational nodes with the <strong>UK Modern Slavery Act, 2015</strong> and relevant <strong>UN Human Rights Conventions</strong>.
+            </p>
+        </div>
+
+        <div class="role-grid">
+            <div class="role-item" style="grid-column: span 2;">
+                <p class="role-caption">VETTING PROTOCOLS · ECOSYSTEM HYGIENE</p>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Mandatory Ethical Audits</h4>
+                  <p class="role-desc">All vendors and downstream partners are subject to forensic ethical audits. We refuse to deploy capital or provide advisory services to any entity flagged for labor violations.</p>
+                </div>
+                
+                <div class="flow-step">
+                  <h4 class="role-accent">Unilateral Termination Power</h4>
+                  <p class="role-desc">The Firm reserves the right to unilaterally terminate engagements without notice where a counterparty fails to demonstrate a clean human rights track record.</p>
+                </div>
+
+                <div class="flow-step">
+                  <h4 class="role-accent">The "Arm's Length" Node</h4>
+                  <p class="role-desc">Traversing outbound nodes to third-party regulatory bodies does not constitute a fiduciary alliance. Once you exit this secure domain, we disclaim all liability for external data hygiene or ethical failures.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  `,
+  contact: `
+    <div class="modal-split-container">
+
+      <!-- LEFT PANEL -->
+      <div class="modal-briefing">
+        <p class="modal-level">MANDATE INTAKE</p>
+        <h2>Contact with Ozzuno</h2>
+        <p class="brief-text">
+          Strategic mandates only. All submissions are reviewed directly by the mandate desk.
+        </p>
+        <div class="brief-status">
+          <span>NO SPAM · CONFIDENTIAL · DIRECT ROUTING</span>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="modal-operations">
+        <form class="contact-form">
+
+          <label>Email <span>*</span></label>
+          <input type="email" placeholder="you@company.com" required />
+
+          <label>Organization</label>
+          <input type="text" placeholder="Fund / Family Office / Company" />
+
+          <label>Mandate Summary <span>*</span></label>
+          <textarea
+            placeholder="Short, clear brief on your requirement."
+            required
+          ></textarea>
+
+          <p class="form-note">
+            No spam. Your details route directly to the mandate desk.
+          </p>
+
+          <button type="submit" class="send-btn">
+            Send Message
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+  `,
+  "white-paper": `
+    <div class="modal-split-container">
+
+      <!-- LEFT PANEL -->
+      <div class="modal-briefing">
+        <p class="modal-level">GATED INTELLIGENCE</p>
+        <h2>White Papers</h2>
+        <p class="brief-text">
+          Proprietary capital intelligence. Access governed by mandate status.
+        </p>
+
+        <div class="brief-status">
+          <span>LEVEL 3 · ACCESS RESTRICTED</span>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="modal-operations">
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division I · Capital Markets & IPO Engineering</h3>
+            <span class="division-status">4 Assets</span>
+          </div>
+
+          <div class="division-content">
+            <div class="whitepaper-grid">
+
+              <div class="whitepaper-card">
+                <h4>The IPO Death Spiral</h4>
+                <p>Engineering immunity against post-listing capital erosion.</p>
+                <span class="access-tag">LEVEL 3</span>
+              </div>
+
+              <div class="whitepaper-card">
+                <h4>Anchor Investor Fallacy</h4>
+                <p>Why institutional commitments don’t guarantee price defense.</p>
+                <span class="access-tag">LEVEL 3</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division II · Unlisted Securities & Private Capital</h3>
+            <span class="division-status">2 Assets</span>
+          </div>
+
+          <div class="division-content">
+            <p style="opacity:.6;font-size:13px">
+              Additional assets available upon mandate approval.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  `
 };
   
 
@@ -1553,14 +2007,21 @@ function openModal(type) {
   }
 }
 // Open modal on card click
-document.querySelectorAll(".card").forEach(card => {
-  card.addEventListener("click", () => {
-    const contentKey = card.getAttribute("data-content");
-    modalBody.innerHTML = cardContents[contentKey];
+function openModal(type) {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+
+  if (policyContents[type]) {
+    modalBody.innerHTML = policyContents[type];
     modal.style.display = "flex";
     document.body.classList.add("modal-open");
-  });
-});
+
+    // 🔥 CRITICAL
+    if (type === "white-paper") {
+      bindWhitePaperAccordion();
+    }
+  }
+}
 
 // Close modal
 closeModal.addEventListener("click", () => {
@@ -1599,3 +2060,17 @@ document.addEventListener("DOMContentLoaded", () => {
     if (section) observer.observe(section);
   });
 });
+
+function bindWhitePaperAccordion() {
+  document.querySelectorAll(".division-header").forEach(header => {
+    header.onclick = () => {
+      const division = header.parentElement;
+
+      document.querySelectorAll(".division").forEach(d => {
+        if (d !== division) d.classList.remove("active");
+      });
+
+      division.classList.toggle("active");
+    };
+  });
+}
