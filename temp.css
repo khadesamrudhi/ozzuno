@@ -1377,7 +1377,7 @@ body.modal-open #section-2 {
 }
 
 #section-10 .cards-grid {
-  max-width: 600px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
@@ -1508,9 +1508,9 @@ body.modal-open #section-2 {
 .s11-right-grid-container {
     flex: 1.5;
     margin-top: 8px;
-}
-
-/* Re-using the slideIn keyframe from your S9 logic */
+  }
+  
+  /* Re-using the slideIn keyframe from your S9 logic */
 .slide-in-right {
     opacity: 0;
     transform: translateX(100px);
@@ -1522,9 +1522,9 @@ body.modal-open #section-2 {
         opacity: 1;
         transform: translateX(0);
     }
-}
-
-.s11-cards-grid {
+  }
+  
+  .s11-cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
@@ -1539,7 +1539,6 @@ body.modal-open #section-2 {
     transition: all 0.4s ease;
     cursor: pointer;
     position: relative;
-    max-width: 580px;
 }
 
 /* Slight Pop Effect for Card */
