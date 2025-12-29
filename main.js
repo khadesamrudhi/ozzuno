@@ -1956,7 +1956,6 @@ const policyContents = {
 
           <div class="division-content">
             <div class="whitepaper-grid">
-
               <div class="whitepaper-card">
                 <h4>The IPO Death Spiral</h4>
                 <p>Engineering immunity against post-listing capital erosion.</p>
@@ -1968,7 +1967,6 @@ const policyContents = {
                 <p>Why institutional commitments don’t guarantee price defense.</p>
                 <span class="access-tag">LEVEL 3</span>
               </div>
-
             </div>
           </div>
         </div>
@@ -1980,9 +1978,91 @@ const policyContents = {
           </div>
 
           <div class="division-content">
-            <p style="opacity:.6;font-size:13px">
-              Additional assets available upon mandate approval.
-            </p>
+            <p style="opacity:.6;font-size:13px">Additional assets available upon mandate approval.</p>
+          </div>
+        </div>
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division III · Strategic Warfare (M&A & Exit)</h3>
+            <span class="division-status">3 Assets</span>
+          </div>
+          <div class="division-content">
+            <p style="opacity:.6;font-size:13px">Playbooks for acquisition strategy, carve-outs, and exit engineering.</p>
+          </div>
+        </div>
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division IV · Debt & Financial Engineering</h3>
+            <span class="division-status">2 Assets</span>
+          </div>
+          <div class="division-content">
+            <p style="opacity:.6;font-size:13px">Advanced liability structuring, ECB strategies, and structured credit instruments.</p>
+          </div>
+        </div>
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division V · Risk, Tax & Compliance</h3>
+            <span class="division-status">4 Assets</span>
+          </div>
+          <div class="division-content">
+            <p style="opacity:.6;font-size:13px">Regulatory hedges, tax-efficient structuring, and forensic assurance protocols.</p>
+          </div>
+        </div>
+
+        <div class="division">
+          <div class="division-header">
+            <h3>Division VI · Global & Macro Strategy</h3>
+            <span class="division-status">1 Asset</span>
+          </div>
+          <div class="division-content">
+            <p style="opacity:.6;font-size:13px">Macro thematic research, sovereign risk overlays and asset allocation frameworks.</p>
+          </div>
+        </div>
+
+        <!-- Secure download / request form (placeholder content) -->
+        <div class="division" style="margin-top:18px; padding:18px; background:linear-gradient(180deg,#1b0b0f,#2a0b0f); border-radius:12px; border:1px solid rgba(255,80,80,0.12);">
+          <div class="division-header">
+            <h3>Level 3 Proprietary Intelligence · Access Request</h3>
+            <span class="division-status">Restricted</span>
+          </div>
+          <div class="division-content">
+            <form id="whitepaper-access-form" class="secure-download-form" style="display:grid; gap:12px; max-width:720px;">
+              <label>Company / Entity Name</label>
+              <input type="text" name="company" placeholder="e.g. Ozzuno Capital Services Pvt. Ltd." required />
+
+              <label>Contact Person (Name)</label>
+              <input type="text" name="contact_name" placeholder="Full name" required />
+
+              <label>Official Communication Email</label>
+              <input type="email" name="email" placeholder="name@company.com" required />
+
+              <label>Direct Line (Mobile)</label>
+              <input type="tel" name="phone" placeholder="+91-XXXXXXXXXX" />
+
+              <label>Area of Interest / Division</label>
+              <select name="interest" required>
+                <option value="">Select band</option>
+                <option>Division I · Capital Markets & IPO</option>
+                <option>Division II · Unlisted Securities</option>
+                <option>Division III · Strategic Warfare</option>
+                <option>Division IV · Debt & Engineering</option>
+                <option>Division V · Risk & Compliance</option>
+                <option>Division VI · Global & Macro</option>
+              </select>
+
+              <label>Brief Mandate Summary (optional)</label>
+              <textarea name="summary" placeholder="Short summary of request"></textarea>
+
+              <p style="font-size:12px; color:rgba(255,255,255,0.6); margin-top:6px;">By submitting, you request access to restricted proprietary intelligence. The mandate desk will review and respond.</p>
+
+              <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
+                <button type="submit" class="send-btn">Initiate Secure Transfer</button>
+              </div>
+            </form>
+            <div id="whitepaper-access-result" style="display:none; margin-top:12px; color:#b8ffb8;"></div>
           </div>
         </div>
 
@@ -2018,7 +2098,9 @@ function openModal(type) {
 
     // 🔥 CRITICAL
     if (type === "white-paper") {
-      bindWhitePaperAccordion();
+        bindWhitePaperAccordion();
+        bindWhitePaperNav();
+        bindWhitePaperForm();
     }
   }
 }
@@ -2055,22 +2137,128 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Corrected the selector string to include all section IDs properly
   const scrollSections = document.querySelectorAll('#section-3, #section-5, #section-7, #section-9, #section-11, #section-13,#section-14, #section-15, #section-16');
-  
   scrollSections.forEach((section) => {
     if (section) observer.observe(section);
   });
 });
 
 function bindWhitePaperAccordion() {
-  document.querySelectorAll(".division-header").forEach(header => {
-    header.onclick = () => {
-      const division = header.parentElement;
+  // Use explicit maxHeight setting for smooth animation
+  document.querySelectorAll(".division").forEach(div => {
+    const header = div.querySelector('.division-header');
+    const content = div.querySelector('.division-content');
+    // ensure collapsed state
+    content.style.maxHeight = div.classList.contains('active') ? content.scrollHeight + 'px' : '0px';
 
-      document.querySelectorAll(".division").forEach(d => {
-        if (d !== division) d.classList.remove("active");
+    header.addEventListener('click', () => {
+      const isActive = div.classList.toggle('active');
+
+      // close other divisions
+      document.querySelectorAll('.division').forEach(other => {
+        if (other !== div) {
+          other.classList.remove('active');
+          const otherContent = other.querySelector('.division-content');
+          if (otherContent) otherContent.style.maxHeight = '0px';
+        }
       });
 
-      division.classList.toggle("active");
-    };
+      // set maxHeight to scrollHeight when opening for smooth transition
+      if (isActive) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        // move focus inside the opened content for accessibility
+        setTimeout(()=> {
+          const firstInput = content.querySelector('input, textarea, button, a');
+          if (firstInput) firstInput.focus();
+        }, 300);
+      } else {
+        content.style.maxHeight = '0px';
+      }
+    });
+  });
+}
+
+// Build a pop-in nav inside the white-paper modal that links to each division
+function bindWhitePaperNav() {
+  const modalOps = document.querySelector('.modal-operations');
+  if (!modalOps) return;
+
+  // remove existing nav if present
+  const existing = modalOps.querySelector('.whitepaper-nav');
+  if (existing) existing.remove();
+
+  const divisions = Array.from(modalOps.querySelectorAll('.division'));
+  if (!divisions.length) return;
+
+  const nav = document.createElement('nav');
+  nav.className = 'whitepaper-nav';
+
+  divisions.forEach((d, idx) => {
+    const titleEl = d.querySelector('.division-header h3');
+    const label = titleEl ? titleEl.textContent.trim() : `Division ${idx+1}`;
+    const a = document.createElement('a');
+    a.href = '#';
+    a.textContent = label;
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      // scroll the modal operations container to the division
+      const container = modalOps;
+      const target = d;
+      const offset = target.getBoundingClientRect().top - container.getBoundingClientRect().top + container.scrollTop - 12;
+      container.scrollTo({ top: offset, behavior: 'smooth' });
+      // open the division
+      const header = d.querySelector('.division-header');
+      header?.click();
+    });
+    nav.appendChild(a);
+  });
+
+  // insert nav at top of operations
+  modalOps.prepend(nav);
+
+  // show subtle entrance animation
+  nav.style.transform = 'translateY(-8px)';
+  nav.style.opacity = '0';
+  requestAnimationFrame(()=>{
+    nav.style.transition = 'transform 300ms ease, opacity 300ms ease';
+    nav.style.transform = 'translateY(0)';
+    nav.style.opacity = '1';
+  });
+}
+
+// Bind the whitepaper access request form (simple client-side handler)
+function bindWhitePaperForm() {
+  const form = document.getElementById('whitepaper-access-form');
+  const resultEl = document.getElementById('whitepaper-access-result');
+  if (!form) return;
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const company = data.get('company')?.toString().trim();
+    const contact = data.get('contact_name')?.toString().trim();
+    const email = data.get('email')?.toString().trim();
+    const interest = data.get('interest')?.toString().trim();
+
+    if (!company || !contact || !email || !interest) {
+      if (resultEl) {
+        resultEl.style.display = 'block';
+        resultEl.style.color = '#ffb3b3';
+        resultEl.textContent = 'Please complete the required fields.';
+      }
+      return;
+    }
+
+    // Simulate submission: disable button and show confirmation
+    const submitBtn = form.querySelector('button[type="submit"]');
+    if (submitBtn) submitBtn.disabled = true;
+
+    if (resultEl) {
+      resultEl.style.display = 'block';
+      resultEl.style.color = '#b8ffb8';
+      resultEl.textContent = 'Request submitted — the mandate desk will respond shortly.';
+    }
+
+    // Here you would post to your server. For now we just log the payload.
+    console.log('Whitepaper access request', Object.fromEntries(data.entries()));
   });
 }
