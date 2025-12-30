@@ -108,6 +108,7 @@ function updateFromScroll() {
     : 0;
 
   // ---- CONTINUOUS ORBIT (NO PAUSE) ----
+  const startAngle = Math.PI / 2;
   const angle = scrollProgress * Math.PI * 2;
 
   targetX = Math.cos(angle) * 2.2;
