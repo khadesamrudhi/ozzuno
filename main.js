@@ -21,25 +21,40 @@ updateClock();
 setInterval(updateClock, 1000);
 
 
-///---------------------->sprial ring<---------------------------
-// Scene, Camera, Renderer
+/// ====================== SMOOTH ORBIT RING ======================
+
+/// ====================== SMOOTH ORBIT RING (FOOTER REVERSE) ======================
+
+// ---------- SCENE ----------
 const scene = new THREE.Scene();
+
 const camera = new THREE.PerspectiveCamera(
-  75,
+  55,
   window.innerWidth / window.innerHeight,
   0.1,
   1000
 );
+camera.position.z = 5;
 
-const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg-ring'), antialias: true });
+// ---------- RENDERER ----------
+const renderer = new THREE.WebGLRenderer({
+  canvas: document.getElementById("bg-ring"),
+  antialias: true,
+  alpha: true
+});
+
 renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+// ---------- GEOMETRY ----------
 const geometry = new THREE.TorusGeometry(2, 0.5, 16, 100);
 
+// ---------- COLOR GRADIENT ----------
 const colorsArray = [
-  new THREE.Color("#c5a059"), // warm gold
-  new THREE.Color("#e8c9a0"), // light gold
-  new THREE.Color("#d4af37"), // bright gold
-  new THREE.Color("#a68956")  // darker gold
+  new THREE.Color("#c5a059"),
+  new THREE.Color("#e8c9a0"),
+  new THREE.Color("#d4af37"),
+  new THREE.Color("#a68956")
 ];
 
 const colors = [];
@@ -48,6 +63,7 @@ const count = geometry.attributes.position.count;
 for (let i = 0; i < count; i++) {
   const t = i / count;
   let c;
+
   if (t < 0.33) {
     c = colorsArray[0].clone().lerp(colorsArray[1], t / 0.33);
   } else if (t < 0.66) {
@@ -55,32 +71,85 @@ for (let i = 0; i < count; i++) {
   } else {
     c = colorsArray[2].clone().lerp(colorsArray[3], (t - 0.66) / 0.34);
   }
+
   colors.push(c.r, c.g, c.b);
 }
 
-geometry.setAttribute('color', new THREE.Float32BufferAttribute(colors, 3));
+geometry.setAttribute("color", new THREE.Float32BufferAttribute(colors, 3));
 
-const material = new THREE.MeshBasicMaterial({ vertexColors: true, wireframe: true });
+// ---------- MATERIAL ----------
+const material = new THREE.MeshBasicMaterial({
+  vertexColors: true,
+  wireframe: true
+});
+
 const torus = new THREE.Mesh(geometry, material);
 scene.add(torus);
 
-camera.position.z = 5;
+// ---------- SMOOTH STATE ----------
+let currentX = 0;
+let currentY = 0;
 
-// Animation
+let targetX = 0;
+let targetY = 0;
+
+let rotationDirection = 1;
+
+// ---------- SCROLL HANDLER ----------
+function updateFromScroll() {
+  const footer = document.querySelector("footer");
+
+  // ---- CONTINUOUS SCROLL PROGRESS ----
+  const scrollMax =
+    document.documentElement.scrollHeight - window.innerHeight;
+
+  const scrollProgress = scrollMax > 0
+    ? window.scrollY / scrollMax
+    : 0;
+
+  // ---- CONTINUOUS ORBIT (NO PAUSE) ----
+  const angle = scrollProgress * Math.PI * 2;
+
+  targetX = Math.cos(angle) * 2.2;
+  targetY = Math.sin(angle) * 0.8;
+
+  // ---- FOOTER REVERSE ----
+  if (footer) {
+    const footerRect = footer.getBoundingClientRect();
+    rotationDirection = footerRect.top < window.innerHeight ? -1 : 1;
+  }
+}
+
+window.addEventListener("scroll", updateFromScroll);
+
+// ---------- ANIMATION LOOP ----------
 function animate() {
   requestAnimationFrame(animate);
-  torus.rotation.x += 0.01;
-  torus.rotation.y += 0.01;
+
+  // Smooth lerp
+  currentX += (targetX - currentX) * 0.08;
+  currentY += (targetY - currentY) * 0.08;
+
+  torus.position.set(currentX, currentY, 0);
+
+  // Rotation (reverses in footer)
+  torus.rotation.x += 0.008 * rotationDirection;
+  torus.rotation.y += 0.01 * rotationDirection;
+  torus.rotation.z += 0.006 * rotationDirection;
+
   renderer.render(scene, camera);
 }
+
 animate();
 
-// Handle window resize
-window.addEventListener('resize', () => {
+// ---------- RESIZE ----------
+window.addEventListener("resize", () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
+
+
 
 
 

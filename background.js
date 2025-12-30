@@ -41,13 +41,55 @@ const material = new THREE.MeshBasicMaterial({ vertexColors: true, wireframe: tr
 const torus = new THREE.Mesh(geometry, material);
 scene.add(torus);
 
-camera.position.z = 5;
+camera.position.z = 8;
+
+// Animation variables
+let time = 0;
+const rotationSpeedX = 0.0008;
+const rotationSpeedY = 0.0012;
+const zoomSpeed = 0.0008;
+const cameraMovementSpeed = 0.001;
+let scrollBasedX = 0;
+
+// Detect which section is in view and set camera position
+function updateCameraBasedOnScroll() {
+  const sections = document.querySelectorAll('section');
+  let activeSection = 0;
+  
+  sections.forEach((section, index) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top < window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
+      activeSection = index;
+    }
+  });
+  
+  // Move camera left/right more dramatically based on section
+  scrollBasedX = (activeSection - 1) * 8;
+}
+
+// Add scroll listener
+window.addEventListener('scroll', updateCameraBasedOnScroll);
 
 // Animation
 function animate() {
   requestAnimationFrame(animate);
-  torus.rotation.x += 0.01;
-  torus.rotation.y += 0.01;
+  
+  // Smooth rotation
+  time += 1;
+  torus.rotation.x = time * rotationSpeedX;
+  torus.rotation.y = time * rotationSpeedY;
+  
+  // Extreme zoom in and out effect
+  const zoomFactor = 2 + Math.sin(time * zoomSpeed) * 6;
+  camera.position.z = zoomFactor;
+  
+  // Strong sideways movement - much more visible
+  const animationX = Math.sin(time * cameraMovementSpeed) * 6;
+  camera.position.x = scrollBasedX + animationX;
+  
+  // Strong vertical camera movement
+  camera.position.y = Math.cos(time * cameraMovementSpeed * 0.8) * 4;
+  
   renderer.render(scene, camera);
 }
 animate();
