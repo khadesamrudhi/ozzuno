@@ -272,6 +272,7 @@ body {
   font-size: 13px;
   color: #d4af37;
   font-weight: 500;
+
 }
 
 /* Hover pop effect: moves left and raises slightly */
@@ -830,9 +831,20 @@ body.modal-open #section-2 {
   padding-bottom: 10px;
 }
 
+#section-5 .card-link{
+  
+    font-size: 13px;
+    color: #d4af37;
+    font-weight: 500;
+}
 /* Staggered Delay for Section 5 cards */
 #section-5 .slide-card:nth-child(1) { transition-delay: 0.1s; }
 #section-5 .slide-card:nth-child(2) { transition-delay: 0.3s; }
+
+
+#section-5 .card{
+  height: auto;
+}
 
 /* Reusing Section 2 Logic for Section 6 */
 /* SECTION 6: Global Markets & Treasury */
