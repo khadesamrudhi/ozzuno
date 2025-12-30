@@ -36,10 +36,10 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 const geometry = new THREE.TorusGeometry(2, 0.5, 16, 100);
 
 const colorsArray = [
-  new THREE.Color("#08060d"), // dark
-  new THREE.Color("#2b5bac"), // blue
-  new THREE.Color("#929092"), // grey
-  new THREE.Color("#3e673b")  // greenish
+  new THREE.Color("#c5a059"), // warm gold
+  new THREE.Color("#e8c9a0"), // light gold
+  new THREE.Color("#d4af37"), // bright gold
+  new THREE.Color("#a68956")  // darker gold
 ];
 
 const colors = [];
@@ -1453,7 +1453,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
       </div>
     </div>
   `
-  
+
 };
 const policyContents = {
   "terms": `
@@ -1535,7 +1535,7 @@ const policyContents = {
       </div>
     </div>
   `,
-  
+
   "risk": `
     <div class="modal-split-container">
       <div class="modal-briefing">
@@ -1615,7 +1615,7 @@ const policyContents = {
       </div>
     </div>
   `,
-  
+
   "whistle": `
     <div class="modal-split-container">
       <div class="modal-briefing">
@@ -1931,173 +1931,158 @@ const policyContents = {
   `,
   "white-paper": `
     <div class="modal-split-container">
-
-      <!-- LEFT PANEL -->
       <div class="modal-briefing">
-        <p class="modal-level">GATED INTELLIGENCE</p>
-        <h2>White Papers</h2>
-        <p class="brief-text">
-          Proprietary capital intelligence. Access governed by mandate status.
-        </p>
-
+        <div>
+          <p class="modal-level">GATED INTELLIGENCE</p>
+          <h2 style="font-size: 44px;">White Papers</h2>
+          <p class="brief-text">Proprietary dossiers engineered to expose critical blind spots in conventional capital market thinking.</p>
+        </div>
         <div class="brief-status">
           <span>LEVEL 3 · ACCESS RESTRICTED</span>
         </div>
       </div>
 
-      <!-- RIGHT PANEL -->
       <div class="modal-operations">
+        <div class="whitepaper-nav">
+          <a href="javascript:void(0)" class="nav-tab active" onclick="switchDivision('div1', this)">DIV I</a>
+          <a href="javascript:void(0)" class="nav-tab" onclick="switchDivision('div2', this)">DIV II</a>
+          <a href="javascript:void(0)" class="nav-tab" onclick="switchDivision('div3', this)">DIV III</a>
+          <a href="javascript:void(0)" class="nav-tab" onclick="switchDivision('div4', this)">DIV IV</a>
+          <a href="javascript:void(0)" class="nav-tab" onclick="switchDivision('div5', this)">DIV V</a>
+          <a href="javascript:void(0)" class="nav-tab" onclick="switchDivision('div6', this)">DIV VI</a>
+          <a href="javascript:void(0)" class="nav-tab" style="color: #fb9200ff;" onclick="switchDivision('div-form', this)">REQUEST ACCESS</a>
+        </div>
 
-        <div class="division">
-          <div class="division-header">
-            <h3>Division I · Capital Markets & IPO Engineering</h3>
-            <span class="division-status">4 Assets</span>
-          </div>
-
-          <div class="division-content">
+        <div class="division-viewport">
+          <div id="div1" class="division-pane active">
+            <div class="division-header-alt">
+              <h3>Division I · Capital Markets & IPO Engineering</h3>
+              <p class="division-desc">Engineering sovereign-grade defenses for listings, valuations, and regulatory exposure.</p>
+            </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card">
-                <h4>The IPO Death Spiral</h4>
-                <p>Engineering immunity against post-listing capital erosion.</p>
-                <span class="access-tag">LEVEL 3</span>
-              </div>
-
-              <div class="whitepaper-card">
-                <h4>Anchor Investor Fallacy</h4>
-                <p>Why institutional commitments don’t guarantee price defense.</p>
-                <span class="access-tag">LEVEL 3</span>
-              </div>
+              <div class="whitepaper-card"><h4>WP-01: IPO Death Spiral</h4><p>Dissects why ~40% of modern listings collapse below issue price within T+90 days, linking anchor lock-in expiries to retail panic cycles. Introduces a proprietary Stabilization Framework for defending valuation during price discovery and exposes structural flaws in traditional book-building.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-02: Anchor Investor Fallacy</h4><p>A forensic critique of over-reliance on QIB anchors as a signal of issue health. Reveals how “friendly” anchor books can mask weak retail and HNI sentiment, outlines the Shadow Book strategy for pre-DRHP capital commitment, and decodes psychological triggers driving GMP and subscription optics.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-03: SME to Mainboard</h4><p>Quantifies the liquidity and valuation re-rating unlocked when migrating from SME platforms to the BSE/NSE Mainboard. Maps the compliance matrix to avoid SEBI surveillance triggers and flags accounting pitfalls that routinely lead to migration rejection.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-04: DRHP Defense</h4><p>A technical manual on drafting DRHPs that survive hostile SEBI observations. Catalogues the top regulatory delay triggers, shows how to pre-empt them through intelligent risk-factor drafting, and explains Strategic Disclosure that protects competitive intelligence while staying fully compliant.</p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
-        </div>
 
-        <div class="division">
-          <div class="division-header">
-            <h3>Division II · Unlisted Securities & Private Capital</h3>
-            <span class="division-status">2 Assets</span>
+          <div id="div2" class="division-pane">
+            <div class="division-header-alt">
+              <h3>Division II · Unlisted Securities & Private Capital</h3>
+              <p class="division-desc">Exploiting pre-listing inefficiencies and illiquidity inside private balance sheets.</p>
+            </div>
+            <div class="whitepaper-grid">
+              <div class="whitepaper-card"><h4>WP-05: Grey Market Alpha</h4><p>Capturing 400% yields via pre-listing pricing inefficiencies.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-06: ESOP Liquidity Trap</h4><p>Navigating tax and vesting cliffs in unlisted income.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-07: PE Deal Warfare</h4><p>Surviving the term sheet and preserving promoter equity.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-08: AIF Structuring</h4><p>Optimization of Category I, II, & III vehicles.</p><span class="access-tag">REQUEST ACCESS</span></div>
+            </div>
           </div>
 
-          <div class="division-content">
-            <p style="opacity:.6;font-size:13px">Additional assets available upon mandate approval.</p>
+          <div id="div3" class="division-pane">
+            <div class="division-header-alt">
+              <h3>Division III · Strategic Warfare (M&A & Exit)</h3>
+              <p class="division-desc">Hostile defense, stressed acquisition, and surgical exits in an activist world.</p>
+            </div>
+            <div class="whitepaper-grid">
+              <div class="whitepaper-card"><h4>WP-09: Inorganic Conquest</h4><p>Hostile takeover defense architectures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-10: Distressed Arbitrage</h4><p>The IBC (Insolvency) Playbook for acquiring assets.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-11: Strategic Divestiture</h4><p>The art of the carve-out for premium pricing.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-12: The Earn-Out Trap</h4><p>Protecting value in M&A closures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+            </div>
           </div>
-        </div>
 
-        <div class="division">
-          <div class="division-header">
-            <h3>Division III · Strategic Warfare (M&A & Exit)</h3>
-            <span class="division-status">3 Assets</span>
+          <div id="div4" class="division-pane">
+            <div class="division-header-alt">
+              <h3>Division IV · Debt & Financial Engineering</h3>
+              <p class="division-desc">Turning leverage, instruments, and structures into deliberate strategic weapons.</p>
+            </div>
+            <div class="whitepaper-grid">
+              <div class="whitepaper-card"><h4>WP-13: Weaponized Leverage</h4><p>Transforming toxic liabilities into strategy.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-14: Cross-Border Capital</h4><p>The ECB (External Commercial Borrowing) Advantage.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-15: Invoice Discounting</h4><p>Unlocking supply chain liquidity.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-16: Project Finance</h4><p>Non-recourse funding structures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+            </div>
           </div>
-          <div class="division-content">
-            <p style="opacity:.6;font-size:13px">Playbooks for acquisition strategy, carve-outs, and exit engineering.</p>
+
+          <div id="div5" class="division-pane">
+            <div class="division-header-alt">
+              <h3>Division V · Risk, Tax & Compliance</h3>
+              <p class="division-desc">Fortifying margins, data, and disclosures against forensic-grade scrutiny.</p>
+            </div>
+            <div class="whitepaper-grid">
+              <div class="whitepaper-card"><h4>WP-17: Transfer Pricing Shield</h4><p>Defending cross-border margins.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-18: Forensic Immunity</h4><p>Preparing for statutory audits.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-19: Cyber-Sovereignty</h4><p>Protecting financial data via Zero-Trust.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-20: GST Litigation Defense</h4><p>Navigating departmental notices.</p><span class="access-tag">REQUEST ACCESS</span></div>
+            </div>
           </div>
-        </div>
 
-        <div class="division">
-          <div class="division-header">
-            <h3>Division IV · Debt & Financial Engineering</h3>
-            <span class="division-status">2 Assets</span>
+          <div id="div6" class="division-pane">
+            <div class="division-header-alt">
+              <h3>Division VI · Global & Macro Strategy</h3>
+              <p class="division-desc">Positioning capital against currency, geopolitics, and climate-linked realignments.</p>
+            </div>
+            <div class="whitepaper-grid">
+              <div class="whitepaper-card"><h4>WP-21: The Currency War</h4><p>Hedging INR volatility in a dollarized world.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-22: Sovereign Risk Radar</h4><p>Mapping geopolitics and capital flows.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-23: The ODI Gateway</h4><p>Technical framework for global expansion.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-24: Carbon Credit Arbitrage</h4><p>The ESG financial model.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-25: 2030 India Thesis</h4><p>Capitalizing on the $10 Trillion economy.</p><span class="access-tag">REQUEST ACCESS</span></div>
+            </div>
           </div>
-          <div class="division-content">
-            <p style="opacity:.6;font-size:13px">Advanced liability structuring, ECB strategies, and structured credit instruments.</p>
-          </div>
-        </div>
 
-        <div class="division">
-          <div class="division-header">
-            <h3>Division V · Risk, Tax & Compliance</h3>
-            <span class="division-status">4 Assets</span>
-          </div>
-          <div class="division-content">
-            <p style="opacity:.6;font-size:13px">Regulatory hedges, tax-efficient structuring, and forensic assurance protocols.</p>
-          </div>
-        </div>
-
-        <div class="division">
-          <div class="division-header">
-            <h3>Division VI · Global & Macro Strategy</h3>
-            <span class="division-status">1 Asset</span>
-          </div>
-          <div class="division-content">
-            <p style="opacity:.6;font-size:13px">Macro thematic research, sovereign risk overlays and asset allocation frameworks.</p>
-          </div>
-        </div>
-
-        <!-- Secure download / request form (placeholder content) -->
-        <div class="division" style="margin-top:18px; padding:18px; background:linear-gradient(180deg,#1b0b0f,#2a0b0f); border-radius:12px; border:1px solid rgba(255,80,80,0.12);">
-          <div class="division-header">
-            <h3>Level 3 Proprietary Intelligence · Access Request</h3>
-            <span class="division-status">Restricted</span>
-          </div>
-          <div class="division-content">
-            <form id="whitepaper-access-form" class="secure-download-form" style="display:grid; gap:12px; max-width:720px;">
-              <label>Company / Entity Name</label>
-              <input type="text" name="company" placeholder="e.g. Ozzuno Capital Services Pvt. Ltd." required />
-
-              <label>Contact Person (Name)</label>
-              <input type="text" name="contact_name" placeholder="Full name" required />
-
-              <label>Official Communication Email</label>
-              <input type="email" name="email" placeholder="name@company.com" required />
-
-              <label>Direct Line (Mobile)</label>
-              <input type="tel" name="phone" placeholder="+91-XXXXXXXXXX" />
-
-              <label>Area of Interest / Division</label>
-              <select name="interest" required>
-                <option value="">Select band</option>
-                <option>Division I · Capital Markets & IPO</option>
-                <option>Division II · Unlisted Securities</option>
-                <option>Division III · Strategic Warfare</option>
-                <option>Division IV · Debt & Engineering</option>
-                <option>Division V · Risk & Compliance</option>
-                <option>Division VI · Global & Macro</option>
-              </select>
-
-              <label>Brief Mandate Summary (optional)</label>
-              <textarea name="summary" placeholder="Short summary of request"></textarea>
-
-              <p style="font-size:12px; color:rgba(255,255,255,0.6); margin-top:6px;">By submitting, you request access to restricted proprietary intelligence. The mandate desk will review and respond.</p>
-
-              <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
-                <button type="submit" class="send-btn">Initiate Secure Transfer</button>
+          <div id="div-form" class="division-pane">
+            <div class="division-header-alt">
+              <h3 style="color: #fb9200ff;">Secure Download Portal</h3>
+              <p class="division-desc">Intelligence is restricted to verified corporate entities and accredited investors.</p>
+            </div>
+            <form class="contact-form" style="max-width: 100%; grid-template-columns: 1fr 1fr;  margin-top: 20px;">
+              <div style="display: flex; flex-direction: column; gap: 15px;">
+                <label>COMPANY NAME <span>*</span></label>
+                <input type="text" placeholder="e.g. Ozzuno Capital Services Pvt. Ltd." required />
+                <label>WORK EMAIL <span>*</span></label>
+                <input type="email" placeholder="name@corporate-domain.com" required />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 15px;">
+                <label>DESIGNATION (C-SUITE ONLY)</label>
+                <input type="text" placeholder="e.g. Group CFO, Managing Director" />
+                <label>AUM / TURNOVER</label>
+                <input type="text" placeholder="Select eligibility band" />
+              </div>
+              <div style="grid-column: span 2; display: flex; flex-direction: column; gap: 15px;">
+                <label>AREA OF INTEREST / DIVISION</label>
+                <textarea placeholder="e.g. Division I - Capital Markets; Division III - Strategic Warfare" style="min-height: 80px;"></textarea>
+                <button type="submit" class="send-btn" style="width: 100%; background: linear-gradient(135deg, #d4af37, #e8c9a0);">INITIATE SECURE TRANSFER</button>
               </div>
             </form>
-            <div id="whitepaper-access-result" style="display:none; margin-top:12px; color:#b8ffb8;"></div>
           </div>
         </div>
-
       </div>
     </div>
   `
 };
-  
 
-// (removed duplicate openModal definition)
+
 // Open modal on card click
 function openModal(type) {
   const modal = document.getElementById("modal");
   const modalBody = document.getElementById("modal-body");
 
-  // Prefer cardContents for card popups, otherwise policyContents
-  if (typeof cardContents !== 'undefined' && cardContents[type]) {
+  if (cardContents[type]) {
     modalBody.innerHTML = cardContents[type];
-  } else if (typeof policyContents !== 'undefined' && policyContents[type]) {
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open");
+  } else if (policyContents[type]) {
     modalBody.innerHTML = policyContents[type];
-
-    // Initialize white-paper handlers when showing that modal
-    if (type === "white-paper") {
-      setTimeout(() => {
-        bindWhitePaperAccordion();
-        bindWhitePaperNav();
-        bindWhitePaperForm();
-      }, 0);
-    }
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open");
   } else {
-    modalBody.innerHTML = "<h2>Content Under Review</h2><p>This content is not available yet.</p>";
+    modalBody.innerHTML = "<h2>Content Under Review</h2><p>This policy is currently being updated for 2025 compliance.</p>";
+    modal.style.display = "flex";
+    document.body.classList.add("modal-open");
   }
-
-  modal.style.display = "flex";
-  document.body.classList.add("modal-open");
 }
 
 // Close modal
@@ -2136,169 +2121,46 @@ document.addEventListener("DOMContentLoaded", () => {
     if (section) observer.observe(section);
   });
 
-  // Bind any element that exposes `data-content` to open the modal with that key
-  const interactiveCards = document.querySelectorAll('[data-content]');
-  interactiveCards.forEach((card) => {
+  // Add click handlers for all cards with data-content attribute
+  document.querySelectorAll('[data-content]').forEach((card) => {
     card.style.cursor = 'pointer';
-    const key = card.getAttribute('data-content');
-    console.log('binding data-content ->', key);
     card.addEventListener('click', (e) => {
-      console.log('card clicked ->', key, e.target);
-      const k = card.getAttribute('data-content');
-      if (k) openModal(k);
+      const contentId = card.getAttribute('data-content');
+      openModal(contentId);
     });
   });
 });
 
 function bindWhitePaperAccordion() {
-  // Use explicit maxHeight setting for smooth animation
-  const divisions = Array.from(document.querySelectorAll('.division'));
+  document.querySelectorAll(".division-header").forEach(header => {
+    header.onclick = () => {
+      const division = header.parentElement;
 
-  // Helper to update open/closed state based on index
-  function setActiveIndex(openIndex) {
-    divisions.forEach((div, idx) => {
-      const content = div.querySelector('.division-content');
-      if (!content) return;
-      if (idx === openIndex) {
-        div.classList.add('active');
-        content.style.maxHeight = content.scrollHeight + 'px';
-        // focus first interactive element for accessibility
-        setTimeout(()=> {
-          const firstInput = content.querySelector('input, textarea, button, a');
-          if (firstInput) firstInput.focus();
-        }, 320);
-      } else {
-        div.classList.remove('active');
-        content.style.maxHeight = '0px';
-      }
-    });
-  }
+      document.querySelectorAll(".division").forEach(d => {
+        if (d !== division) d.classList.remove("active");
+      });
 
-  // Initialize: on small screens keep all closed, on larger screens open the first division
-  const desktopOpen = window.innerWidth >= 900;
-  if (desktopOpen && divisions.length) {
-    setActiveIndex(0);
-  } else {
-    setActiveIndex(-1);
-  }
-
-  // Attach header click handlers to toggle individual divisions (and close others)
-  divisions.forEach((div, idx) => {
-    const header = div.querySelector('.division-header');
-    const content = div.querySelector('.division-content');
-    if (!header || !content) return;
-
-    header.addEventListener('click', () => {
-      const isActive = div.classList.toggle('active');
-
-      if (isActive) {
-        // open this one and close others
-        setActiveIndex(idx);
-      } else {
-        // close this
-        content.style.maxHeight = '0px';
-      }
-    });
-  });
-
-  // Keep behavior responsive: collapse on small, open first on large when resizing across threshold
-  let lastWasDesktop = desktopOpen;
-  window.addEventListener('resize', () => {
-    const nowDesktop = window.innerWidth >= 900;
-    if (nowDesktop === lastWasDesktop) return;
-    lastWasDesktop = nowDesktop;
-    if (nowDesktop) {
-      // switch to desktop behaviour: open first
-      setActiveIndex(0);
-    } else {
-      // switch to mobile behaviour: close all
-      setActiveIndex(-1);
-    }
+      division.classList.toggle("active");
+    };
   });
 }
 
-// Build a pop-in nav inside the white-paper modal that links to each division
-function bindWhitePaperNav() {
-  const modalOps = document.querySelector('.modal-operations');
-  if (!modalOps) return;
 
-  // remove existing nav if present
-  const existing = modalOps.querySelector('.whitepaper-nav');
-  if (existing) existing.remove();
-
-  const divisions = Array.from(modalOps.querySelectorAll('.division'));
-  if (!divisions.length) return;
-
-  const nav = document.createElement('nav');
-  nav.className = 'whitepaper-nav';
-
-  divisions.forEach((d, idx) => {
-    const titleEl = d.querySelector('.division-header h3');
-    const label = titleEl ? titleEl.textContent.trim() : `Division ${idx+1}`;
-    const a = document.createElement('a');
-    a.href = '#';
-    a.textContent = label;
-    a.addEventListener('click', (e) => {
-      e.preventDefault();
-      // scroll the modal operations container to the division
-      const container = modalOps;
-      const target = d;
-      const offset = target.getBoundingClientRect().top - container.getBoundingClientRect().top + container.scrollTop - 12;
-      container.scrollTo({ top: offset, behavior: 'smooth' });
-      // open the division
-      const header = d.querySelector('.division-header');
-      header?.click();
-    });
-    nav.appendChild(a);
+function switchDivision(divId, tabElement) {
+  // Hide all panes
+  document.querySelectorAll('.division-pane').forEach(pane => {
+    pane.classList.remove('active');
   });
 
-  // insert nav at top of operations
-  modalOps.prepend(nav);
-
-  // show subtle entrance animation
-  nav.style.transform = 'translateY(-8px)';
-  nav.style.opacity = '0';
-  requestAnimationFrame(()=>{
-    nav.style.transition = 'transform 300ms ease, opacity 300ms ease';
-    nav.style.transform = 'translateY(0)';
-    nav.style.opacity = '1';
+  // Deactivate all tabs
+  document.querySelectorAll('.nav-tab').forEach(tab => {
+    tab.classList.remove('active');
   });
-}
 
-// Bind the whitepaper access request form (simple client-side handler)
-function bindWhitePaperForm() {
-  const form = document.getElementById('whitepaper-access-form');
-  const resultEl = document.getElementById('whitepaper-access-result');
-  if (!form) return;
+  // Activate selected
+  document.getElementById(divId).classList.add('active');
+  tabElement.classList.add('active');
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const data = new FormData(form);
-    const company = data.get('company')?.toString().trim();
-    const contact = data.get('contact_name')?.toString().trim();
-    const email = data.get('email')?.toString().trim();
-    const interest = data.get('interest')?.toString().trim();
-
-    if (!company || !contact || !email || !interest) {
-      if (resultEl) {
-        resultEl.style.display = 'block';
-        resultEl.style.color = '#ffb3b3';
-        resultEl.textContent = 'Please complete the required fields.';
-      }
-      return;
-    }
-
-    // Simulate submission: disable button and show confirmation
-    const submitBtn = form.querySelector('button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = true;
-
-    if (resultEl) {
-      resultEl.style.display = 'block';
-      resultEl.style.color = '#b8ffb8';
-      resultEl.textContent = 'Request submitted — the mandate desk will respond shortly.';
-    }
-
-    // Here you would post to your server. For now we just log the payload.
-    console.log('Whitepaper access request', Object.fromEntries(data.entries()));
-  });
+  // Scroll viewport to top
+  document.querySelector('.division-viewport').scrollTop = 0;
 }

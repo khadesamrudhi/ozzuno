@@ -117,7 +117,7 @@ body {
   background: linear-gradient(
     90deg,
     #ffffff,
-    #b8b5ff,
+    #c5a059,
     #ffffff
   );
   background-size: 200%;
@@ -129,11 +129,10 @@ body {
 
 /* SUBTITLE */
 .p-subtitle {
-  text-shadow: 0 1px 2px rgba(247, 244, 244, 0.6);
-  
+  text-shadow: 0 1px 2px rgba(149, 127, 38, 0.6);
   font-size: clamp(26px, 3.5vw, 40px);
   opacity: 0;
-  color:#b8b5ff;
+  color:#eeb543d4;
   animation: slideUp 1s ease forwards;
   animation-delay: 0.4s;
 }
@@ -145,7 +144,7 @@ body {
   max-width: 520px;
   font-size: 18px;
   line-height: 1.6;
-  color: #cfcce5;
+  color: #efe8df;
   opacity: 0;
   animation: fadeUp 1s ease forwards;
   animation-delay: 0.9s;
@@ -271,7 +270,7 @@ body {
 
 .card-link {
   font-size: 13px;
-  color: #58a6ff;
+  color: #d4af37;
   font-weight: 500;
 }
 
@@ -340,7 +339,7 @@ body {
 }
 
 .modal-dark-block h3 {
-    color: #b8b5ff;
+    color: #d4af37;
     margin-bottom: 15px;
 }
 
@@ -355,12 +354,12 @@ body {
     background: rgba(255,255,255,0.05);
     padding: 20px;
     border-radius: 8px;
-    border-left: 3px solid #b8b5ff;
+    border-left: 3px solid #d4af37;
 }
 
 .modal-grid-item h4 {
     font-size: 12px;
-    color: #b8b5ff;
+    color: #d4af37;
     margin-bottom: 5px;
 }
 /* ================= BASE MODAL CONTAINER (FIX) ================= */
@@ -464,9 +463,9 @@ body.modal-open #section-2 {
 .brief-status span {
     font-size: 10px;
     letter-spacing: 2px;
-    color: #b8b5ff;
+    color: #d4af37;
     padding: 8px;
-    border: 1px solid rgba(184, 181, 255, 0.2);
+    border: 1px solid rgba(212, 175, 55, 0.3);
     text-align: center;
 }
 
@@ -508,8 +507,8 @@ body.modal-open #section-2 {
 
 /* Dark Block Styling */
 .modal-dark-block {
-    background: rgba(184, 181, 255, 0.05);
-    border-left: 4px solid #b8b5ff;
+    background: rgba(212, 175, 55, 0.05);
+    border-left: 4px solid #d4af37;
     padding: 30px;
     margin-top: 20px;
 }
@@ -529,14 +528,14 @@ body.modal-open #section-2 {
 }
 
 .role-item {
-    border-left: 1px solid rgba(184, 181, 255, 0.3);
+    border-left: 1px solid rgba(212, 175, 55, 0.3);
     padding-left: 20px;
     transition: all 0.3s ease;
 }
 
 .role-item:hover {
-    border-left: 1px solid #b8b5ff;
-    background: rgba(184, 181, 255, 0.03);
+    border-left: 1px solid #d4af37;
+    background: rgba(212, 175, 55, 0.08);
 }
 
 .role-accent {
@@ -547,7 +546,7 @@ body.modal-open #section-2 {
 }
 
 .role-caption {
-    color: #b8b5ff; /* Blue/Purple Accent */
+    color: #d4af37; /* Golden Accent */
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -571,7 +570,7 @@ body.modal-open #section-2 {
 }
 
 .modal-list li::marker {
-    color: #b8b5ff;
+    color: #d4af37;
 }
 
 /* section 3 */
@@ -655,7 +654,7 @@ body.modal-open #section-2 {
 .card-id {
   font-family: 'Courier New', monospace;
   font-size: 11px;
-  color: #b8b5ff;
+  color: #d4af37;
 }
 
 .card-title {
@@ -784,7 +783,7 @@ body.modal-open #section-2 {
 
 .s4-card-link {
     font-size: 13px;
-    color: #58a6ff;
+    color: #d4af37;
     font-weight: 500;
 }
 
@@ -820,7 +819,7 @@ body.modal-open #section-2 {
 #section-5 .card-id {
   font-family: 'Courier New', monospace;
   font-size: 11px;
-  color: #4da3ff;/* Unique color accent for Private Capital section */
+  color: #d4af37;/* Unique color accent for Private Capital section */
   opacity: 0.6;
   float: right;
 }
@@ -958,7 +957,7 @@ body.modal-open #section-2 {
 #section-6 .card-link {
   display: inline-block;
   font-size: 13px;
-  color: #58a6ff;
+  color: #d4af37;
   font-weight: 500;
   text-decoration: none;
   padding-top: 20px;
@@ -1289,7 +1288,7 @@ body.modal-open #section-2 {
 }
 
 .card-linkk {
-    color: #3b82f6;
+    color: #d4af37;
     font-size: 14px;
     font-weight: 500;
     border: none;
@@ -1417,7 +1416,7 @@ body.modal-open #section-2 {
 #section-10 .card-link {
   
   font-size: 13px;
-  color:#3b82f6; /* Amber/Gold accent matching the image logic */
+  color:#d4af37; /* Amber/Gold accent matching the image logic */
   font-weight: 500;
   text-decoration: none;
 }
@@ -1573,7 +1572,7 @@ body.modal-open #section-2 {
 
 
 .card-linkk {
-  color:#3b82f6; /* Greenish/Mint accent to match the visual feel of Wealth management */
+  color:#d4af37; /* Greenish/Mint accent to match the visual feel of Wealth management */
     font-size: 14px;
     font-weight: 500;
     border: none;
@@ -1703,7 +1702,7 @@ body.modal-open #section-2 {
 
 #section-12 .card-link {
   font-size: 13px;
-  color: #3b82f6;
+  color: #d4af37;
   font-weight: 500;
 }
 /* ================= SECTION 13: INVESTOR RELATIONS ================= */
@@ -1786,7 +1785,7 @@ body.modal-open #section-2 {
 .metric-label, .sub-box-label {
   font-size: 10px;
   letter-spacing: 1px;
-  color: #4da3ff; /* Accent color from IR images */
+  color: #d4af37; /* Accent color from IR images */
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -1887,7 +1886,7 @@ body.modal-open #section-2 {
 .metric-label {
   font-size: 10px;
   letter-spacing: 1px;
-  color: #4da3ff; /* Matching Section 13 Accent */
+  color: #d4af37; /* Matching Section 13 Accent */
   display: block;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -2030,7 +2029,7 @@ body.modal-open #section-2 {
 }
 
 .policy-links a:hover {
-  color:#3b82f6;
+  color:#d4af37;
   transform: translateX(5px); /* Visual cue for interactive link */
 }
 
@@ -2053,7 +2052,7 @@ body.modal-open #section-2 {
   letter-spacing: 2px;
   margin: 0;
   font-weight: 700;
-  color:#3b82f6;
+  color:#d4af37;
 }
 
 .address {
@@ -2160,7 +2159,7 @@ body.modal-open #section-2 {
 .modal-briefing .modal-level {
   font-size: 11px;
   letter-spacing: 2px;
-  color: #8b8eff;
+  color: #d4af3797;
   margin-bottom: 18px;
 }
 
@@ -2180,14 +2179,14 @@ body.modal-open #section-2 {
 .brief-status {
   margin-top: 36px;
   padding: 10px 14px;
-  border: 1px solid rgba(120,130,255,0.25);
+  border: 1px solid rgba(212, 175, 55, 0.3);
   width: fit-content;
 }
 
 .brief-status span {
   font-size: 11px;
   letter-spacing: 1.4px;
-  color: #b8b5ff;
+  color: #d4af37;
 }
 
 /* ===== RIGHT PANEL ===== */
@@ -2247,8 +2246,8 @@ body.modal-open #section-2 {
 /* Focus state */
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #7a7cff;
-  box-shadow: 0 0 0 2px rgba(122,124,255,0.15);
+  border-color: #d4af37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15);
 }
 
 /* Footer note */
@@ -2262,7 +2261,7 @@ body.modal-open #section-2 {
 .send-btn {
   margin-top: 10px;
   align-self: flex-end;
-  background: linear-gradient(135deg, #18c8ff, #7a7cff);
+  background: linear-gradient(135deg, #d4af37, #e8c9a0);
   color: #000;
   border: none;
   border-radius: 999px;
@@ -2276,7 +2275,7 @@ body.modal-open #section-2 {
 
 .send-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 10px 40px rgba(122,124,255,0.45);
+  box-shadow: 0 10px 40px rgba(212, 175, 55, 0.45);
 }
 
 .division {
@@ -2314,20 +2313,19 @@ body.modal-open #section-2 {
   align-items: center;
   padding: 12px 8px;
   margin-bottom: 18px;
-  position: sticky;
+  position: relative;
   top: 0;
-  z-index: 40;
+  z-index: 0;
   background: linear-gradient(180deg, rgba(5,4,10,0.65), rgba(5,4,10,0.6));
   backdrop-filter: blur(8px);
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.03);
 }
 .whitepaper-nav a {
   display: inline-block;
   padding: 8px 12px;
-  color: #b8b5ff;
+  color: #d4af37;
   background: rgba(255,255,255,0.02);
-  border: 1px solid rgba(184,181,255,0.06);
+  border: 1px solid rgba(212, 175, 55, 0.1);
   border-radius: 999px;
   font-size: 13px;
   text-decoration: none;
@@ -2357,10 +2355,7 @@ body.modal-open #section-2 {
 .division .division-content p, .division .division-content .whitepaper-grid { color: rgba(255,255,255,0.85); }
 
 /* Small screens: make nav horizontally scrollable */
-@media (max-width: 720px) {
-  .whitepaper-nav { overflow-x: auto; gap: 10px; }
-  .whitepaper-nav a { flex: 0 0 auto; }
-}
+
 
 /* ===== Unified slide-in transition for main sections ===== */
 /* Applies the same entrance animation to cards/slide-cards in the listed sections */
@@ -2409,4 +2404,134 @@ body.modal-open #section-2 {
 #section-9 .card:nth-child(3), #section-11 .card:nth-child(3), #section-13 .card:nth-child(3),
 #section-14 .card:nth-child(3), #section-15 .card:nth-child(3), #section-16 .card:nth-child(3) {
   transition-delay: 0.18s;
+}
+
+
+
+
+
+/* Tab Navigation Styling */
+.whitepaper-nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-tab {
+    padding: 17px 18px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.4);
+    background: transparent;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-tab.active {
+    background: #ffffff;
+    color: #05040a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Viewport for Cards - Scrollbar Hidden */
+.division-viewport {
+    flex: 1;
+    height: 520px;
+    overflow-y: auto;
+    padding-right: 15px;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+
+.division-pane {
+    display: none; 
+}
+
+.division-pane.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Content Grid Styling (Enhanced High-Density Look) */
+.whitepaper-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.whitepaper-card {
+    background: transparent;
+    border-left: 1px solid rgba(255, 255, 255, 0.1); 
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.whitepaper-card:hover {
+    border-left-color: #d4af37;
+}
+
+.whitepaper-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.whitepaper-card p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+    margin: 0;
+}
+
+.access-tag {
+    font-size: 11px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.access-tag:hover {
+    text-decoration: underline;
+    opacity: 1;
+    color: #d4af37;
+}
+
+/* Division Header Detail */
+.division-header-alt h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.division-desc {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 15px;
 }
