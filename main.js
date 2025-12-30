@@ -97,7 +97,7 @@ const cardContents = {
       <div class="modal-briefing">
         <p class="modal-level">Level 1 · The Firm</p>
         <h2>The Firm: Sovereign Corporate Identity</h2>
-        <p class="brief-text">Ozzuno Capital Services Pvt. Ltd. as a sovereign construct of market architecture and asymmetric capital deployment.</p>
+        <p class="brief-text">Dwarkadas Capital Services Pvt. Ltd. as a sovereign construct of market architecture and asymmetric capital deployment.</p>
         <div class="brief-status">
           <span>STATUS: OPERATIONAL</span>
           <span>CLEARANCE: LEVEL 1</span>
@@ -110,9 +110,9 @@ const cardContents = {
             <h3>Sovereign Corporate Identity Grid</h3>
             <p>The firm is structured as a tightly controlled command grid, with capital allocation, risk, and market strategy concentrated in a cerebral core while operational verticals execute with algorithmic precision.</p>
             <h3>A Manifesto of Asymmetric Dominance</h3>
-            <p>Ozzuno Capital Services Pvt. Ltd. is not merely a financial intermediary; it is a Sovereign Construct of Market Architecture. Our existence is predicated on a singular, ruthless axiom: capital flows not to the deserving, but to the commanded.
+            <p>Dwarkadas Capital Services Pvt. Ltd. is not merely a financial intermediary; it is a Sovereign Construct of Market Architecture. Our existence is predicated on a singular, ruthless axiom: capital flows not to the deserving, but to the commanded.
               We operate at the bleeding edge of Indian capital markets, positioned at the convergence of regulatory rigidity, financial engineering, and market aggression. Our institutional philosophy is built upon Asymmetric Capital Deployment—the belief that true economic value is extracted only when one possesses informational, structural, and execution-based advantages over the counterparty
-              We do not seek to participate in the economy; we seek to engineer its outcomes through forensic intellect and regulatory arbitrage. Ozzuno functions as the cerebral cortex of the corporate ecosystem, obliterating friction between ambition and capitalization.
+              We do not seek to participate in the economy; we seek to engineer its outcomes through forensic intellect and regulatory arbitrage. Dwarkadas functions as the cerebral cortex of the corporate ecosystem, obliterating friction between ambition and capitalization.
               Whether orchestrating public listings via IPO Consulting & Listing Services, restructuring toxic liabilities through Debt & Financial Consulting, or navigating cross-border M&A, we operate with the cold logic of an algorithm and the aggressive foresight of a market maker. We embed ourselves into the operational DNA of our clients, converting market participants into market leaders through Business Consulting and Strategic Exit Services.
             </p>
         </div>
@@ -142,7 +142,7 @@ const cardContents = {
       <div class="modal-briefing">
         <p class="modal-level">Level 1 · Governance</p>
         <h2>The Apex Council · Board of Directors</h2>
-        <p class="brief-text">A meritocratic oligarchy governing Ozzuno’s strategic vectors with absolute authority and uncompromising fiduciary discipline.</p>
+        <p class="brief-text">A meritocratic oligarchy governing dwarkadas’s strategic vectors with absolute authority and uncompromising fiduciary discipline.</p>
         <div class="brief-status">
           <span>AUTHORITY: SUPREME</span>
           <span>QUORUM: ACTIVE</span>
@@ -216,7 +216,7 @@ const cardContents = {
         <div class="modal-dark-block" style="background: rgba(184, 181, 255, 0.08); border-left: 4px solid #b8b5ff; margin-top: 40px;">
             <p class="modal-level">CURRENT EPOCH</p>
             <h3 style="color:#fff; font-size: 20px; margin: 10px 0;">Totalized Hegemony</h3>
-            <p style="color:#9a96b5; font-size: 14px;">Ozzuno now functions as a full-stack financial fortress where consulting, capital markets, private equity, and risk architecture are fused into a single monolithic service grid. Every mandate is executed across this integrated stack, converting fragmented financial requirements into orchestrated, outcome-engineered capital strategies.</p>
+            <p style="color:#9a96b5; font-size: 14px;">Dwarkadas now functions as a full-stack financial fortress where consulting, capital markets, private equity, and risk architecture are fused into a single monolithic service grid. Every mandate is executed across this integrated stack, converting fragmented financial requirements into orchestrated, outcome-engineered capital strategies.</p>
         </div>
       </div>
     </div>
@@ -240,7 +240,7 @@ const cardContents = {
             <p class="modal-level">OPERATING GRID</p>
             <h3>Sovereign Operating Topology</h3>
             <p>
-            Ozzuno's presence is not defined by offices, but by strategic nodes—each calibrated for capital deployment, regulatory navigation, and information extraction. Domestic and offshore locations are wired into a single, integrated decision engine.
+            dwarkadas's presence is not defined by offices, but by strategic nodes—each calibrated for capital deployment, regulatory navigation, and information extraction. Domestic and offshore locations are wired into a single, integrated decision engine.
             </p>
             <ul class="modal-list">
               <li>Domestic core for regulatory command and origination.</li>
@@ -355,7 +355,7 @@ const cardContents = {
                 <h4 class="role-accent">Regulatory Mandate:</h4>
                 <p class="role-desc">All advisory services are executed in strict conformity with the SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018, and the Companies Act, 2013.</p>
                 <h4 class="role-accent">Fiduciary Disclaimer:</h4>
-                <p class="role-desc">Ozzuno Capital acts as a strategic process architect. While we ensure rigorous compliance with SEBI norms, the ultimate subscription of the issue is subject to systemic market volatility. Valuation parameters are derived using IBBI-registered valuer standards; however, listing gains are not guaranteed. The issuer retains liability for all material disclosures made in the Draft Red Herring Prospectus (DRHP).</p>
+                <p class="role-desc">Dwarkadas Capital acts as a strategic process architect. While we ensure rigorous compliance with SEBI norms, the ultimate subscription of the issue is subject to systemic market volatility. Valuation parameters are derived using IBBI-registered valuer standards; however, listing gains are not guaranteed. The issuer retains liability for all material disclosures made in the Draft Red Herring Prospectus (DRHP).</p>
             </div>
         </div>
       </div>
@@ -419,7 +419,7 @@ const cardContents = {
                 <p class="role-desc">Services are rendered in adherence to the SEBI (Merchant Bankers) Regulations, 1992 and the Securities Contracts (Regulation) Act, 1956.
                 </p>
                 <h4 class="role-accent">Fiduciary Disclaimer:</h4>
-                <p class="role-desc">As process advisors, we ensure that all disclosures in offer documents are validated for material accuracy through independent due diligence. However, Ozzuno Capital assumes no financial liability for the undersubscription of an issue. Any underwriting obligation is limited strictly to the specific terms of the Underwriting Agreement.</p>
+                <p class="role-desc">As process advisors, we ensure that all disclosures in offer documents are validated for material accuracy through independent due diligence. However, Dwarkadas Capital assumes no financial liability for the undersubscription of an issue. Any underwriting obligation is limited strictly to the specific terms of the Underwriting Agreement.</p>
           </div>
         </div>
       </div>
@@ -533,7 +533,7 @@ const cardContents = {
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Mergers are executed in strict compliance with Sections 230-240 of the Companies Act, 2013. We rigorously monitor Competition Commission of India (CCI) combination thresholds.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> We enforce Chinese Wall protocols to prevent Insider Trading violations. Ozzuno facilitates the transaction but does not bear liability for post-merger integration failures. The client remains responsible for statutory filings and stamp duty.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> We enforce Chinese Wall protocols to prevent Insider Trading violations. Dwarkadas facilitates the transaction but does not bear liability for post-merger integration failures. The client remains responsible for statutory filings and stamp duty.</p>
             </div>
         </div>
       </div>
@@ -595,7 +595,7 @@ const cardContents = {
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Business valuations are performed in line with International Valuation Standards (IVS). Divestitures are subject to NCLT approvals where applicable.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> The IM is based on management representations. Ozzuno acts as a sell-side advisor and does not guarantee closure at target valuation. All negotiations are subject to definitive agreements and successful due diligence.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> The IM is based on management representations. Dwarkadas acts as a sell-side advisor and does not guarantee closure at target valuation. All negotiations are subject to definitive agreements and successful due diligence.</p>
             </div>
         </div>
       </div>
@@ -778,7 +778,7 @@ const cardContents = {
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Foreign investment is managed under the Foreign Exchange Management (Non-debt Instruments) Rules, 2019 and other applicable RBI/SEBI norms.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Ozzuno Capital facilitates the capital raising process but does not guarantee valuation or closure of a funding round. All investors are subject to AML and KYC checks. Shareholders' Agreements are binding; governance disputes post-investment fall outside our liability.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Dwarkadas Capital facilitates the capital raising process but does not guarantee valuation or closure of a funding round. All investors are subject to AML and KYC checks. Shareholders' Agreements are binding; governance disputes post-investment fall outside our liability.</p>
             </div>
         </div>
       </div>
@@ -837,7 +837,7 @@ const cardContents = {
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Advisory is governed by SEBI (Alternative Investment Funds) Regulations, 2012 and applicable circulars.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Private placements target sophisticated investors (₹ 1 Cr+ minimum). The PPM is the definitive risk document. Returns are market-linked and principal may be at risk. Ozzuno Capital acts as an arranger, not as the fund manager.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Private placements target sophisticated investors (₹ 1 Cr+ minimum). The PPM is the definitive risk document. Returns are market-linked and principal may be at risk. Dwarkadas Capital acts as an arranger, not as the fund manager.</p>
             </div>
         </div>
       </div>
@@ -898,7 +898,7 @@ In short, we open the floodgates of global finance, allowing companies to raise 
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Cross-border transactions are executed in strict compliance with FEMA, 1999 and RBI Master Directions on ECB and Trade Credit.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients acknowledge inherent foreign exchange volatility risk. Hedging is mandated but Ozzuno Capital is not liable for losses arising from currency movement or sovereign risk in the lender's jurisdiction.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients acknowledge inherent foreign exchange volatility risk. Hedging is mandated but Dwarkadas Capital is not liable for losses arising from currency movement or sovereign risk in the lender's jurisdiction.</p>
             </div>
         </div>
       </div>
@@ -1027,7 +1027,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Engagements are aligned with Standards on Auditing (SAs) issued by ICAI and the Ind AS framework.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients retain primary responsibility for the veracity of source documents; Ozzuno Capital bears no liability for penalties arising from concealed facts.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Clients retain primary responsibility for the veracity of source documents; Dwarkadas Capital bears no liability for penalties arising from concealed facts.</p>
             </div>
         </div>
       </div>
@@ -1206,7 +1206,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
             <div class="role-item">
                 <p class="role-caption">STATUTORY ADHERENCE & RISK DISCLOSURE</p>
                 <p class="role-desc"><strong>Regulatory Mandate:</strong> Solicitation of financial products is conducted through licenses under AMFI (Mutual Funds), IRDAI (Insurance) and RBI (Lending) held by partners and network institutions.</p>
-                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Franchise partners operate as independent entities under the Ozzuno compliance umbrella. Credit decisions remain at the sole discretion of lenders. Investment products are subject to market risks; past performance is not indicative of future returns. Ozzuno Capital acts as a distributor, not a risk underwriter.</p>
+                <p class="role-desc"><strong>Fiduciary Disclaimer:</strong> Franchise partners operate as independent entities under the Dwarkadas compliance umbrella. Credit decisions remain at the sole discretion of lenders. Investment products are subject to market risks; past performance is not indicative of future returns. Dwarkadas Capital acts as a distributor, not a risk underwriter.</p>
             </div>
         </div>
       </div>
@@ -1337,7 +1337,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
       <div class="modal-briefing">
         <p class="modal-level">LEVEL 11 · TECHNOLOGY & INNOVATION</p>
         <h2>The Digital Foundry</h2>
-        <p class="brief-text">Ozzuno Neural Core & algorithmic stack — proprietary infrastructure for millisecond capital markets execution.</p>
+        <p class="brief-text">Dwarkadas Neural Core & algorithmic stack — proprietary infrastructure for millisecond capital markets execution.</p>
         <div class="brief-status">
           <span>11. TECHNOLOGY & INNOVATION · PROPRIETARY ALGORITHMIC INFRASTRUCTURE</span>
         </div>
@@ -1346,7 +1346,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
       <div class="modal-operations">
         <div class="modal-info-card">
             <p>
-              Ozzuno Capital Services is, in essence, a technology company disguised as a financial institution. Our operations are powered by the <strong>Ozzuno Neural Core</strong>, a proprietary algorithmic stack that processes market data with millisecond latency.
+              Dwarkadas Capital Services is, in essence, a technology company disguised as a financial institution. Our operations are powered by the <strong>Dwarkadas Neural Core</strong>, a proprietary algorithmic stack that processes market data with millisecond latency.
               <br><br>
               We have moved beyond legacy financial systems to a cloud-native microservices architecture. This infrastructure allows us to execute complex Merchant Banking mandates and IPO management tasks with automated precision — from order orchestration to compliance logging.
               <br><br>
@@ -1356,7 +1356,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
 
         <div class="role-grid">
             <div class="role-item" style="grid-column: span 2;">
-                <p class="role-caption">OZZUNO NEURAL CORE · STACK SNAPSHOT</p>
+                <p class="role-caption">Dwarkadas NEURAL CORE · STACK SNAPSHOT</p>
                 <ul class="role-desc" style="list-style-type: disc; padding-left: 20px;">
                   <li>Cloud-native microservices with event-driven messaging for real-time market ingestion.</li>
                   <li>Low-latency pricing engines scanning order books and grey market quotes.</li>
@@ -1442,7 +1442,7 @@ With Global and Domestic Support infrastructure, we service both Indian entities
                 </div>
                 <div class="flow-step">
                   <h4 class="role-accent">3. Risk & Pricing Engine</h4>
-                  <p class="role-desc">Ozzuno Neural Core overlays eligibility checks, risk scores, product selection and pricing recommendations in real time.</p>
+                  <p class="role-desc">Dwarkadas Neural Core overlays eligibility checks, risk scores, product selection and pricing recommendations in real time.</p>
                 </div>
                 <div class="flow-step">
                   <h4 class="role-accent">4. Settlement, Audit & Governance</h4>
@@ -1471,7 +1471,7 @@ const policyContents = {
         <div class="modal-info-card">
             <p class="modal-level"><b>PREAMBLE</b></p>
             <p>
-              Access to the Ozzuno Capital digital domain constitutes irrevocable acceptance of these Terms of Engagement. These terms are legally binding under the <strong>Information Technology Act, 2000</strong> and its amendments.
+              Access to the Dwarkadas Capital digital domain constitutes irrevocable acceptance of these Terms of Engagement. These terms are legally binding under the <strong>Information Technology Act, 2000</strong> and its amendments.
             </p>
         </div>
 
@@ -1486,7 +1486,7 @@ const policyContents = {
                 
                 <div class="flow-step">
                   <h4 class="role-accent">02 — Section B: Force Majeure & Indemnification</h4>
-                  <p class="role-desc">Users agree to indemnify and hold Ozzuno harmless against damages arising from reliance on hosted data. The Firm is not liable for failures caused by acts of God or market-halting events.</p>
+                  <p class="role-desc">Users agree to indemnify and hold Dwarkadas harmless against damages arising from reliance on hosted data. The Firm is not liable for failures caused by acts of God or market-halting events.</p>
                 </div>
                 
                 <div class="flow-step">
@@ -1513,7 +1513,7 @@ const policyContents = {
         <div class="modal-info-card">
             <p class="modal-level">ARTICLE I — DATA DOMICILE & COMPLIANCE</p>
             <p>
-              Ozzuno Capital operates a sovereign data infrastructure compliant with the <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>. We do not "share" data; we quarantine it. All Client PII and SPDI is encrypted using AES-256 military-grade standards and domiciled exclusively within Tier-4 Data Centers in India.
+              Dwarkadas Capital operates a sovereign data infrastructure compliant with the <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong>. We do not "share" data; we quarantine it. All Client PII and SPDI is encrypted using AES-256 military-grade standards and domiciled exclusively within Tier-4 Data Centers in India.
             </p>
         </div>
 
@@ -1891,7 +1891,7 @@ const policyContents = {
       <!-- LEFT PANEL -->
       <div class="modal-briefing">
         <p class="modal-level">MANDATE INTAKE</p>
-        <h2>Contact with Ozzuno</h2>
+        <h2>Contact with Dwarkadas</h2>
         <p class="brief-text">
           Strategic mandates only. All submissions are reviewed directly by the mandate desk.
         </p>
@@ -2081,7 +2081,7 @@ Designed for: Institutional investors and family offices planning 2030+ deployme
             <form class="contact-form" style="max-width: 100%; grid-template-columns: 1fr 1fr;  margin-top: 20px;">
               <div style="display: flex; flex-direction: column; gap: 15px;">
                 <label>COMPANY NAME <span>*</span></label>
-                <input type="text" placeholder="e.g. Ozzuno Capital Services Pvt. Ltd." required />
+                <input type="text" placeholder="e.g. Dwarkadas Capital Services Pvt. Ltd." required />
                 <label>WORK EMAIL <span>*</span></label>
                 <input type="email" placeholder="name@corporate-domain.com" required />
               </div>

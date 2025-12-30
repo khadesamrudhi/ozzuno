@@ -1933,7 +1933,7 @@ body.modal-open #section-2 {
 
 
 
-/* OZZUNO STRATEGIC FINANCIAL FOOTER */
+/* Dwarkadas STRATEGIC FINANCIAL FOOTER */
 
 :root {
   --ozz-bg: #05080a;           /* Deep Obsidian Black */
@@ -1944,7 +1944,7 @@ body.modal-open #section-2 {
   --ozz-glass: rgba(255, 255, 255, 0.03);
 }
 
-.ozzuno-footer {
+.dwarkadas-footer {
   background-color: var(--ozz-bg);
   color: var(--ozz-white);
   padding: 80px 5% 40px 5%;
@@ -1966,7 +1966,7 @@ body.modal-open #section-2 {
 }
 
 /* 2. Section Headings */
-.ozzuno-footer h3 {
+.dwarkadas-footer h3 {
   font-size: 11px;
   letter-spacing: 3px;
   color: var(--ozz-muted);

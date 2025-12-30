@@ -1,5 +1,5 @@
 const cardContents = {
-    "content-1": `<h2>The Ozzuno Doctrine</h2>...`,
+    "content-1": `<h2>The Dwarkadas Doctrine</h2>...`,
     "content-2": `<h2>The Apex Council</h2>...`,
     "content-3": `<h2>Chronology of Hegemony</h2>...`,
     "content-4": `<h2>Strategic Operating Grid</h2>...`
