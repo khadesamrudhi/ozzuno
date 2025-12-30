@@ -21,9 +21,7 @@ updateClock();
 setInterval(updateClock, 1000);
 
 
-/// ====================== SMOOTH ORBIT RING ======================
-
-/// ====================== SMOOTH ORBIT RING (FOOTER REVERSE) ======================
+/// ====================== SMOOTH ORBIT RING (ENHANCED) ======================
 
 // ---------- SCENE ----------
 const scene = new THREE.Scene();
@@ -34,7 +32,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   1000
 );
-camera.position.z = 5;
+camera.position.z = 6;
 
 // ---------- RENDERER ----------
 const renderer = new THREE.WebGLRenderer({
@@ -47,7 +45,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 // ---------- GEOMETRY ----------
-const geometry = new THREE.TorusGeometry(2, 0.5, 16, 100);
+const geometry = new THREE.TorusGeometry(2, 0.5, 16, 120);
 
 // ---------- COLOR GRADIENT ----------
 const colorsArray = [
@@ -89,9 +87,11 @@ scene.add(torus);
 // ---------- SMOOTH STATE ----------
 let currentX = 0;
 let currentY = 0;
+let currentZ = 0;
 
 let targetX = 0;
 let targetY = 0;
+let targetZ = 0;
 
 let rotationDirection = 1;
 
@@ -99,7 +99,6 @@ let rotationDirection = 1;
 function updateFromScroll() {
   const footer = document.querySelector("footer");
 
-  // ---- CONTINUOUS SCROLL PROGRESS ----
   const scrollMax =
     document.documentElement.scrollHeight - window.innerHeight;
 
@@ -107,16 +106,18 @@ function updateFromScroll() {
     ? window.scrollY / scrollMax
     : 0;
 
-  // ---- CONTINUOUS ORBIT (NO PAUSE) ----
-  const startAngle = 0;
-  const scrollSpeed = 2.5; 
-  const angle = startAngle + scrollProgress * Math.PI * 1.2;
+  // 🔥 Faster + wider orbit
+  const startAngle = 0; // starts from right
+  const scrollSpeed = 2.6;
 
+  const angle = startAngle + scrollProgress * Math.PI * scrollSpeed;
 
-  targetX = Math.cos(angle) * 2.2;
-  targetY = Math.sin(angle) * 0.8;
+  // Elliptical orbit + depth
+  targetX = Math.cos(angle) * 2.6;
+  targetY = Math.sin(angle) * 1.1;
+  targetZ = Math.sin(angle * 0.8) * 0.6;
 
-  // ---- FOOTER REVERSE ----
+  // Footer reverse
   if (footer) {
     const footerRect = footer.getBoundingClientRect();
     rotationDirection = footerRect.top < window.innerHeight ? -1 : 1;
@@ -126,19 +127,27 @@ function updateFromScroll() {
 window.addEventListener("scroll", updateFromScroll);
 
 // ---------- ANIMATION LOOP ----------
+let time = 0;
+
 function animate() {
   requestAnimationFrame(animate);
+  time += 0.015;
 
-  // Smooth lerp
-  currentX += (targetX - currentX) * 0.08;
-  currentY += (targetY - currentY) * 0.08;
+  // Smooth lerp (slightly faster)
+  currentX += (targetX - currentX) * 0.1;
+  currentY += (targetY - currentY) * 0.1;
+  currentZ += (targetZ - currentZ) * 0.1;
 
-  torus.position.set(currentX, currentY, 0);
+  torus.position.set(currentX, currentY, currentZ);
 
-  // Rotation (reverses in footer)
-  torus.rotation.x += 0.008 * rotationDirection;
-  torus.rotation.y += 0.01 * rotationDirection;
-  torus.rotation.z += 0.006 * rotationDirection;
+  // 🔥 Energetic rotation (footer reverses)
+  torus.rotation.x += 0.01 * rotationDirection;
+  torus.rotation.y += 0.014 * rotationDirection;
+  torus.rotation.z += 0.008 * rotationDirection;
+
+  // Subtle breathing scale
+  const pulse = 1 + Math.sin(time) * 0.015;
+  torus.scale.set(pulse, pulse, pulse);
 
   renderer.render(scene, camera);
 }
