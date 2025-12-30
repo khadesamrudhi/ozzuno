@@ -1973,10 +1973,16 @@ const policyContents = {
               <p class="division-desc">Exploiting pre-listing inefficiencies and illiquidity inside private balance sheets.</p>
             </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card"><h4>WP-05: Grey Market Alpha</h4><p>Capturing 400% yields via pre-listing pricing inefficiencies.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-06: ESOP Liquidity Trap</h4><p>Navigating tax and vesting cliffs in unlisted income.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-07: PE Deal Warfare</h4><p>Surviving the term sheet and preserving promoter equity.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-08: AIF Structuring</h4><p>Optimization of Category I, II, & III vehicles.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-05: Grey Market Alpha</h4><p>Exposes pricing inefficiencies between unlisted and listed comparables and unveils the Liquidity Fractal Model for timing pre-IPO re-ratings. Covers lock-in risk, synthetic hedging via derivatives and tax arbitrage under Section 112A. <br> <br>Designed for: Sophisticated investors and family offices hunting pre-IPO alpha.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-06: ESOP Liquidity Trap</h4><p>Guides CXOs on monetising ESOPs in unlisted unicorns before valuation down-rounds. Dissects perquisite tax on exercise vs. capital gains on exit, structures secondary liquidity without triggering change-of-control, and flags exit-rights traps in shareholder agreements.
+<br><br>
+Designed for: CXOs and senior employees with concentrated ESOP exposure.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-07: PE Deal Warfare</h4><p>Deconstructs PE term sheets to expose liquidation preferences, drag/tag constructs and anti-dilution mechanics that can silently erase promoter equity. Provides a counterplay for preserving board control even after ceding economic majority.
+<br><br>
+Designed for: Founders preparing to accept institutional growth capital.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-08: AIF Structuring</h4><p>Compares regulatory, tax and pass-through nuances across AIF categories, including priority distribution structures. Provides templates for FDI participation and blueprints for Family Offices to institutionalise direct investing via dedicated AIF vehicles.
+<br><br>
+Designed for: Fund managers and family offices engineering onshore vehicles.</p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
 
@@ -1986,10 +1992,18 @@ const policyContents = {
               <p class="division-desc">Hostile defense, stressed acquisition, and surgical exits in an activist world.</p>
             </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card"><h4>WP-09: Inorganic Conquest</h4><p>Hostile takeover defense architectures.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-10: Distressed Arbitrage</h4><p>The IBC (Insolvency) Playbook for acquiring assets.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-11: Strategic Divestiture</h4><p>The art of the carve-out for premium pricing.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-12: The Earn-Out Trap</h4><p>Protecting value in M&A closures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-09: Inorganic Conquest</h4><p>Designs structural defenses against unsolicited takeovers within the Indian Takeover Code. Evaluates poison pills, white knight strategies and promoter-holding configurations that build an unassailable voting bloc without triggering open offers.
+<br><br>
+Designed for: Promoters of listed entities with vulnerable shareholding patterns.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-10: Distressed Arbitrage</h4><p>Operational playbook for acquiring distressed assets via the IBC. Maps haircut probabilities, CoC voting dynamics, hidden liabilities in Information Utilities and the design of pre-packaged resolutions that allow existing sponsors to retain functional control.
+<br><br>
+Designed for: Special-situations funds and corporate acquirers.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-11: Strategic Divestiture</h4><p>Explains how to surgically hive off a business unit through demergers or slump sales while preserving tax neutrality. Details ring-fencing of liabilities and Sum-of-the-Parts valuation to justify premium pricing of stand-alone divisions.
+<br><br>
+Designed for: Conglomerates rationalising portfolios and unlocking trapped value.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-12: The Earn-Out Trap</h4><p>Dissects why earn-out heavy deals end in disputes. Locks in definitions of Adjusted EBITDA, lays out governance rights required to actually achieve targets, and analyses tax deferral and risk mitigation for contingent consideration.
+<br><br>
+Designed for: Sellers entering M&A transactions with deferred consideration.</p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
 
@@ -1999,10 +2013,18 @@ const policyContents = {
               <p class="division-desc">Turning leverage, instruments, and structures into deliberate strategic weapons.</p>
             </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card"><h4>WP-13: Weaponized Leverage</h4><p>Transforming toxic liabilities into strategy.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-14: Cross-Border Capital</h4><p>The ECB (External Commercial Borrowing) Advantage.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-15: Invoice Discounting</h4><p>Unlocking supply chain liquidity.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-16: Project Finance</h4><p>Non-recourse funding structures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-13: Weaponized Leverage</h4><p>Reframes debt as a tax shield and acquisition engine. Details debt recycling to lower WACC, conversion of unrated operational borrowings into rated, securitised paper and navigation of CDR without slipping into NPA classification.
+<br><br>
+Designed for: CFOs of highly leveraged balance sheets.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-14: Cross-Border Capital</h4><p>Shows how to arbitrage INR vs. foreign currency debt while staying inside RBI all-in-cost ceilings. Covers hedging architectures, automatic vs approval routes by sector and end-use restrictions that can trigger penalties.
+<br><br>
+Designed for: Export-led and capex-heavy issuers seeking cheaper foreign capital.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-15: Invoice Discounting</h4><p>Breaks down factoring and reverse factoring, recourse vs non-recourse implications and TReDS-based access to institutional liquidity. Demonstrates off-balance-sheet structures that cosmetically improve current ratios prior to reporting.
+<br><br>
+Designed for: Manufacturers and working-capital stressed enterprises.</p></p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-16: Project Finance</h4><p>Explains SPV-driven risk isolation, lender waterfall mechanics, step-in rights and cure periods, plus credit enhancement devices for lifting project bond ratings in core infrastructure and energy.
+<br><br>
+Designed for: Developers in energy, roads, logistics and large-scale real assets.</p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
 
@@ -2012,10 +2034,18 @@ const policyContents = {
               <p class="division-desc">Fortifying margins, data, and disclosures against forensic-grade scrutiny.</p>
             </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card"><h4>WP-17: Transfer Pricing Shield</h4><p>Defending cross-border margins.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-18: Forensic Immunity</h4><p>Preparing for statutory audits.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-19: Cyber-Sovereignty</h4><p>Protecting financial data via Zero-Trust.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-20: GST Litigation Defense</h4><p>Navigating departmental notices.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-17: Transfer Pricing Shield</h4><p>Forensic guide to defending arm’s length pricing in inter-company transactions. Covers BEPS, documentation for management fee and royalty flows, and the architecture of Advance Pricing Agreements to lock in certainty for multi-year horizons.
+<br><br>
+Designed for: MNC subsidiaries and Indian corporates with global structures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-18: Forensic Immunity</h4><p>Maps the red flags that trigger qualified opinions and forensic escalation. Aligns IFC frameworks with ERP realities, details balance sheet hardening and exposes “creative accounting” patterns easily caught by modern data tools.
+<br><br>
+Designed for: Audit Committees, CFOs and internal control heads.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-19: Cyber-Sovereignty</h4><p>Assesses cyber threats to financial institutions, builds a Zero-Trust architecture blueprint and lays out ransomware response choices. Interprets obligations under the Digital Personal Data Protection Act, 2023, and vendor risk management checklists.
+<br><br>
+Designed for: CIOs, CISOs and enterprise risk leaders.</p></p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-20: GST Litigation Defense</h4><p>Guides responses to scrutiny notices and demand orders under GST. Explains GSTR-2A/2B vs 3B mismatches, ITC reversal risk from non-compliant vendors and the strategy, timelines and pre-deposit rules for appeals.
+<br><br>
+Designed for: Tax Heads under aggressive departmental enforcement.</p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
 
@@ -2025,11 +2055,21 @@ const policyContents = {
               <p class="division-desc">Positioning capital against currency, geopolitics, and climate-linked realignments.</p>
             </div>
             <div class="whitepaper-grid">
-              <div class="whitepaper-card"><h4>WP-21: The Currency War</h4><p>Hedging INR volatility in a dollarized world.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-22: Sovereign Risk Radar</h4><p>Mapping geopolitics and capital flows.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-23: The ODI Gateway</h4><p>Technical framework for global expansion.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-24: Carbon Credit Arbitrage</h4><p>The ESG financial model.</p><span class="access-tag">REQUEST ACCESS</span></div>
-              <div class="whitepaper-card"><h4>WP-25: 2030 India Thesis</h4><p>Capitalizing on the $10 Trillion economy.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-21: The Currency War</h4><p>Analyses macro drivers of USD/INR and quantifies the cost of running unhedged. Compares forwards, options and swaps for different cash-flow profiles and explains natural hedging through asset-liability alignment.
+<br><br>
+Designed for: Corporate treasurers with cross-border exposures.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-22: Sovereign Risk Radar</h4><p>Links global flashpoints to Indian supply chains, capital costs and FII flows. Explores China Plus One beneficiaries and builds scenario models around energy-price shocks and margin impact.
+<br><br>
+Designed for: Boards and strategy teams planning long-term capital allocation.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-23: The ODI Gateway</h4><p>Covers FEMA rules for overseas direct investment, automatic route limits and net-worth thresholds. Explains POEM risk that can reclassify foreign subsidiaries as Indian residents and compares holding company hubs like Singapore, UAE and Netherlands.
+<br><br>
+Designed for: Indian corporates acquiring or building global platforms.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-24: Carbon Credit Arbitrage</h4><p>Explains monetisation of ESG compliance via carbon credit generation and trade. Covers cap-and-trade design, validation rigor, greenwashing litigation risk and integrating ESG factors into cost of capital.
+<br><br>
+Designed for: Sustainability leaders and CFOs weaponising compliance into revenue.</p><span class="access-tag">REQUEST ACCESS</span></div>
+              <div class="whitepaper-card"><h4>WP-25: 2030 India Thesis</h4><p>Projects the sectoral engines of India’s march to a $10T GDP. Balances demographic dividend with automation risk, highlights the infrastructure super-cycle and offers a decadal asset-allocation framework for riding the secular bull market.
+<br><br>
+Designed for: Institutional investors and family offices planning 2030+ deployment.</p></p><span class="access-tag">REQUEST ACCESS</span></div>
             </div>
           </div>
 
