@@ -821,8 +821,7 @@ body.modal-open #section-2 {
   font-family: 'Courier New', monospace;
   font-size: 11px;
   color: #d4af37;/* Unique color accent for Private Capital section */
-  opacity: 0.6;
-  float: right;
+  
 }
 
 #section-5 .card-header {
@@ -1057,7 +1056,7 @@ body.modal-open #section-2 {
 .s8-card-tag {
     font-size: 11px;
     letter-spacing: 1px;
-    color: gray;
+    color: #d4af37;
     margin-bottom: 12px;
     display: block;
 }
