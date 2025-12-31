@@ -21,7 +21,7 @@ updateClock();
 setInterval(updateClock, 1000);
 
 
-/// ====================== SMOOTH ORBIT RING (ENHANCED) ======================
+/// ====================== SMOOTH ORBIT RING (FIXED REVERSE) ======================
 
 // ---------- SCENE ----------
 const scene = new THREE.Scene();
@@ -94,6 +94,7 @@ let targetY = 0;
 let targetZ = 0;
 
 let rotationDirection = 1;
+let orbitDirection = 1; // 🔥 NEW
 
 // ---------- SCROLL HANDLER ----------
 function updateFromScroll() {
@@ -106,21 +107,29 @@ function updateFromScroll() {
     ? window.scrollY / scrollMax
     : 0;
 
-  // 🔥 Faster + wider orbit
-  const startAngle = 0; // starts from right
+  const startAngle = 0; // start from right
   const scrollSpeed = 2.6;
 
-  const angle = startAngle + scrollProgress * Math.PI * scrollSpeed;
+  // 🔥 ORBIT DIRECTION AWARE ANGLE
+  const angle =
+    startAngle +
+    orbitDirection * scrollProgress * Math.PI * scrollSpeed;
 
-  // Elliptical orbit + depth
   targetX = Math.cos(angle) * 2.6;
   targetY = Math.sin(angle) * 1.1;
   targetZ = Math.sin(angle * 0.8) * 0.6;
 
-  // Footer reverse
+  // ---------- FOOTER REVERSE ----------
   if (footer) {
     const footerRect = footer.getBoundingClientRect();
-    rotationDirection = footerRect.top < window.innerHeight ? -1 : 1;
+
+    if (footerRect.top < window.innerHeight) {
+      rotationDirection = -1;
+      orbitDirection = -1; // 🔥 IMPORTANT
+    } else {
+      rotationDirection = 1;
+      orbitDirection = 1;
+    }
   }
 }
 
@@ -133,19 +142,16 @@ function animate() {
   requestAnimationFrame(animate);
   time += 0.015;
 
-  // Smooth lerp (slightly faster)
   currentX += (targetX - currentX) * 0.1;
   currentY += (targetY - currentY) * 0.1;
   currentZ += (targetZ - currentZ) * 0.1;
 
   torus.position.set(currentX, currentY, currentZ);
 
-  // 🔥 Energetic rotation (footer reverses)
   torus.rotation.x += 0.01 * rotationDirection;
   torus.rotation.y += 0.014 * rotationDirection;
   torus.rotation.z += 0.008 * rotationDirection;
 
-  // Subtle breathing scale
   const pulse = 1 + Math.sin(time) * 0.015;
   torus.scale.set(pulse, pulse, pulse);
 
@@ -160,7 +166,6 @@ window.addEventListener("resize", () => {
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
-
 
 
 
